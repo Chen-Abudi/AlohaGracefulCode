@@ -1,3 +1,112 @@
+# LeetHub - Empowering Coders Worldwide
+
+## Overview
+
+- Intro
+- Tech Stack
+- Roadmap
+
+## Intro
+
+Welcome to LeetHub, your go-to platform for mastering coding challenges and enhancing your programming skills! LeetHub is a LeetCode-inspired coding challenge platform designed to provide a seamless and feature-rich experience for programming of all levels.
+
+## 🛠 Tech Stack
+
+**Client:**
+
+- Next.js
+- React
+- TypeScript
+- TailwindCSS
+
+**Server:**
+
+- Firebase
+
+---
+
+## Roadmap
+
+### Phase 1: Foundation
+
+1. **Platform Setup:**
+
+- [ ] Set up the core infrastructure for LeetHub.
+- [ ] Implement user authentication and account management.
+
+2. **Problem Database:**
+
+- [ ] Populate the platform with a diverse set of coding challenges.
+- [ ] Categorize problems based on difficulty, topics, and tags.
+
+3. **Interactive Coding Environment:**
+
+- [ ] Develop an intuitive coding environment for users to solve problems.
+- [ ] Include features like syntax highlighting, code completion, and real-time testing.
+
+4. **User Profiles:**
+
+- [ ] Create user profiles to track individual progress and achievements.
+- [ ] Implement a customizable dashboard for a personalized user experience.
+
+### Phase 2: Collaboration
+
+1. **Community Features:**
+
+- [ ] Introduce discussion forums for each problem to encourage collaboration.
+- [ ] Implement a comment and voting system for solutions.
+
+2. **Solution Explorer:**
+
+- [ ] Develop a platform to explore and compare different solutions to problems.
+- [ ] Enable users to submit multiple solutions and discuss trade-offs.
+
+3. **Notifications:**
+
+- [ ] Implement a notification system to keep users informed about discussions on their solutions and other relevant updates.
+
+### Phase 3: Gamification
+
+1. **Leaderboards:**
+
+- [ ] Create leaderboards to highlight top performers based on various criteria.
+- [ ] Introduce achievements and badges to gamify the learning experience.
+
+2. **Competitions:**
+
+- [ ] Design and launch periodic coding competitions to engage the community.
+- [ ] Include real-time scoring and a dedicated leaderboard for each competition.
+
+### Phase 4: Optimization
+
+1. **Performance Optimization:**
+
+- [ ] Conduct thorough testing and optimize the platform for performance.
+- [ ] Address any scalability issues to ensure a smooth user experience.
+
+2. **User Feedback Implementation:**
+
+- [ ] Collect user feedback through surveys and community discussions.
+- [ ] Implement improvements and features based on user suggestions.
+
+### Phase 5: Expansion
+
+1. **New Problem Sets:**
+
+- [ ] Continuously add new coding challenges to keep the problem database fresh and challenging.
+- [ ] Explore partnerships with educational institutions or companies to create specialized problem sets.
+
+2. **Educational Resources:**
+
+- [ ] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
+
+3. **Internationalization:**
+
+- [ ] Translate the platform into multiple languages to broaden its accessibility.
+- [ ] Explore cultural adaptations for a more inclusive experience.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
