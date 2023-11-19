@@ -1,12 +1,12 @@
 # LeetHub - Empowering Coders Worldwide
 
-## Overview
+## 📢 Overview
 
 - Intro
 - Tech Stack
 - Roadmap
 
-## Intro
+## 🔎 Intro
 
 Welcome to LeetHub, your go-to platform for mastering coding challenges and enhancing your programming skills! LeetHub is a LeetCode-inspired coding challenge platform designed to provide a seamless and feature-rich experience for programming of all levels.
 
@@ -25,9 +25,9 @@ Welcome to LeetHub, your go-to platform for mastering coding challenges and enha
 
 ---
 
-## Roadmap
+## 🎯 Roadmap
 
-### Phase 1: Foundation
+### Phase 1: 🏗️ Foundation
 
 1. **Platform Setup:**
 
@@ -49,7 +49,9 @@ Welcome to LeetHub, your go-to platform for mastering coding challenges and enha
 - [ ] Create user profiles to track individual progress and achievements.
 - [ ] Implement a customizable dashboard for a personalized user experience.
 
-### Phase 2: Collaboration
+  ***
+
+### Phase 2: 👥 Collaboration
 
 1. **Community Features:**
 
@@ -65,7 +67,9 @@ Welcome to LeetHub, your go-to platform for mastering coding challenges and enha
 
 - [ ] Implement a notification system to keep users informed about discussions on their solutions and other relevant updates.
 
-### Phase 3: Gamification
+---
+
+### Phase 3: ⭐ Gamification
 
 1. **Leaderboards:**
 
@@ -77,7 +81,9 @@ Welcome to LeetHub, your go-to platform for mastering coding challenges and enha
 - [ ] Design and launch periodic coding competitions to engage the community.
 - [ ] Include real-time scoring and a dedicated leaderboard for each competition.
 
-### Phase 4: Optimization
+---
+
+### Phase 4: 📊 Optimization
 
 1. **Performance Optimization:**
 
@@ -89,7 +95,9 @@ Welcome to LeetHub, your go-to platform for mastering coding challenges and enha
 - [ ] Collect user feedback through surveys and community discussions.
 - [ ] Implement improvements and features based on user suggestions.
 
-### Phase 5: Expansion
+---
+
+### Phase 5: 📈 Expansion
 
 1. **New Problem Sets:**
 
