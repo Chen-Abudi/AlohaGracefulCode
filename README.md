@@ -1,4 +1,4 @@
-# AlohaGracefulCode - Elevate Your Coding Experience with Grace and Aloha
+# AlohaGracefulCode - Elevate Your Coding Experience with Grace and Aloha 🌺
 
 ## 📢 Overview
 
