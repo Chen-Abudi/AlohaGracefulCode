@@ -1,4 +1,4 @@
-# LeetHub - Empowering Coders Worldwide
+# AlohaGracefulCode - Elevate Your Coding Experience with Grace and Aloha
 
 ## 📢 Overview
 
@@ -8,7 +8,7 @@
 
 ## 🔎 Intro
 
-Welcome to LeetHub, your go-to platform for mastering coding challenges and enhancing your programming skills! LeetHub is a LeetCode-inspired coding challenge platform designed to provide a seamless and feature-rich experience for programming of all levels.
+Welcome to AlohaGracefulCode, a coding challenge platform that combines the artistry of elegant problem-solving with the warm embrace of the Aloha spirit. This platform combines the precision of coding with the beauty of thoughtful problem-solving, creating a space where developers of all levels can flourish. This is a LeetCode-inspired coding challenge platform.
 
 ## 🛠 Tech Stack
 
@@ -31,7 +31,7 @@ Welcome to LeetHub, your go-to platform for mastering coding challenges and enha
 
 1. **Platform Setup:**
 
-- [ ] Set up the core infrastructure for LeetHub.
+- [x] Set up the core infrastructure for AlohaGracefulCode.
 - [ ] Implement user authentication and account management.
 
 2. **Problem Database:**
