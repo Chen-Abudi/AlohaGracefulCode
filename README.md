@@ -10,7 +10,7 @@
 
 Welcome to AlohaGracefulCode, a coding challenge platform that combines the artistry of elegant problem-solving with the warm embrace of the Aloha spirit. This platform combines the precision of coding with the beauty of thoughtful problem-solving, creating a space where developers of all levels can flourish. This is a LeetCode-inspired coding challenge platform.
 
-## 🛠 Tech Stack
+## 🛠 Technologies & Techniques
 
 **Client:**
 
@@ -23,6 +23,11 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - Firebase
 
+**Techniques**
+
+- Hooks
+- Recoil
+
 ---
 
 ## 🎯 Roadmap
@@ -32,6 +37,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 1. **Platform Setup:**
 
 - [x] Set up the core infrastructure for AlohaGracefulCode.
+- [x] Implement user auth modals functionality.
 - [ ] Implement user authentication and account management.
 
 2. **Problem Database:**
