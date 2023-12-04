@@ -25,8 +25,10 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 **Techniques**
 
-- Hooks
-- Recoil
+- Hooks + Custom Hooks
+- RecoilJS
+
+For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoiljs.org/)
 
 ---
 
