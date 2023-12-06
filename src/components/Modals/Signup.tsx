@@ -1,6 +1,9 @@
 import { authModalState } from "@/atoms/authModalAtom";
-import React from "react";
+import { auth } from "@/firebase/firebase";
+import React, { useState } from "react";
 import { useSetRecoilState } from "recoil";
+import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
+import { useRouter } from "next/router";
 
 type SignupProps = {};
 
@@ -11,8 +14,38 @@ const Signup: React.FC<SignupProps> = () => {
     setAuthModalState((prev) => ({ ...prev, type: "login" }));
   };
 
+  const [inputs, setInputs] = useState({
+    email: "",
+    displayYourName: "",
+    password: "",
+  });
+
+  const router = useRouter();
+
+  const [createUserWithEmailAndPassword, user, loading, error] =
+    useCreateUserWithEmailAndPassword(auth);
+
+  const handleChangeInput = (evt: React.ChangeEvent<HTMLInputElement>) => {
+    setInputs((prev) => ({ ...prev, [evt.target.name]: evt.target.value }));
+  };
+
+  const handleRegister = async (evt: React.ChangeEvent<HTMLFormElement>) => {
+    evt.preventDefault();
+
+    try {
+      const newUser = await createUserWithEmailAndPassword(
+        inputs.email,
+        inputs.password
+      );
+      if (!newUser) return;
+      router.push("/");
+    } catch (error: any) {
+      alert(error.message);
+    }
+  };
+
   return (
-    <form className="space-y-5 px-5 pb-4">
+    <form className="space-y-5 px-5 pb-4" onSubmit={handleRegister}>
       <h3 className="text-l font-medium text-white">
         Register to AGC Platform
       </h3>
@@ -24,6 +57,7 @@ const Signup: React.FC<SignupProps> = () => {
           Email
         </label>
         <input
+          onChange={handleChangeInput}
           className="border-2 outline-none sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white"
           name="email"
           type="email"
@@ -39,6 +73,7 @@ const Signup: React.FC<SignupProps> = () => {
           Display Your Name
         </label>
         <input
+          onChange={handleChangeInput}
           className="border-2 outline-none sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white"
           name="displayYourName"
           type="displayYourName"
@@ -54,6 +89,7 @@ const Signup: React.FC<SignupProps> = () => {
           Password
         </label>
         <input
+          onChange={handleChangeInput}
           className="border-2 outline-none sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white"
           name="password"
           type="password"
