@@ -1,4 +1,8 @@
-# AlohaGracefulCode - Elevate Your Coding Experience with Grace and Aloha 🌺
+# AlohaGracefulCode 🌺
+
+# Elevate Your Coding Experience with Grace and Aloha 💻 🖥️
+
+## **Developed By Grace Chen Abudi** 👩🏽‍💻
 
 ## 📢 Overview
 
