@@ -27,6 +27,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - Hooks + Custom Hooks
 - RecoilJS
+- atoms
 
 For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoiljs.org/)
 
@@ -40,7 +41,7 @@ For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoil
 
 - [x] Set up the core infrastructure for AlohaGracefulCode.
 - [x] Implement user auth modals functionality.
-- [ ] Implement user authentication and account management.
+- [x] Implement user authentication and account management.
 
 2. **Problem Database:**
 
