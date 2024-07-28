@@ -33,7 +33,6 @@ const Signup: React.FC<SignupProps> = () => {
     evt.preventDefault();
     if (!inputs.email || !inputs.password || !inputs.displayYourName)
       return alert("Please fill all input fields");
-    // console.log(inputs);
 
     try {
       const newUser = await createUserWithEmailAndPassword(
@@ -51,7 +50,6 @@ const Signup: React.FC<SignupProps> = () => {
     if (error) alert(error.message);
   }, [error]);
 
-  // console.log(inputs);
   return (
     <form className="space-y-5 px-5 pb-4" onSubmit={handleRegister}>
       <h3 className="text-l font-medium text-white">

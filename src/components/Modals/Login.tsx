@@ -46,8 +46,6 @@ const Login: React.FC<LoginProps> = () => {
     if (error) alert(error.message);
   }, [error]);
 
-  // console.log(user, "user");
-
   return (
     <form className="space-y-5 px-5 pb-4" onSubmit={handleLogin}>
       <h3 className="text-l font-medium text-white">Sign in to AGC Platform</h3>
