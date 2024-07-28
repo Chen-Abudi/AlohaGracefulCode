@@ -1,6 +1,6 @@
 import { authModalState } from "@/atoms/authModalAtom";
 import { auth } from "@/firebase/firebase";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSetRecoilState } from "recoil";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { useRouter } from "next/router";
@@ -29,8 +29,11 @@ const Signup: React.FC<SignupProps> = () => {
     setInputs((prev) => ({ ...prev, [evt.target.name]: evt.target.value }));
   };
 
-  const handleRegister = async (evt: React.ChangeEvent<HTMLFormElement>) => {
+  const handleRegister = async (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
+    if (!inputs.email || !inputs.password || !inputs.displayYourName)
+      return alert("Please fill all input fields");
+    // console.log(inputs);
 
     try {
       const newUser = await createUserWithEmailAndPassword(
@@ -44,6 +47,11 @@ const Signup: React.FC<SignupProps> = () => {
     }
   };
 
+  useEffect(() => {
+    if (error) alert(error.message);
+  }, [error]);
+
+  // console.log(inputs);
   return (
     <form className="space-y-5 px-5 pb-4" onSubmit={handleRegister}>
       <h3 className="text-l font-medium text-white">
@@ -101,7 +109,7 @@ const Signup: React.FC<SignupProps> = () => {
         className="w-full text-white focus:ring-blue-400 font-medium rounded-lg text-sm px-4 py-2 text-center bg-brand-orange hover:bg-brand-orange-s"
         type="submit"
       >
-        Register
+        {loading ? "Registering..." : "Register"}
       </button>
       <div className="text-sm font-medium text-gray-200">
         Already have an account? {""}
