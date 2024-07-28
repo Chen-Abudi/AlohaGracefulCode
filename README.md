@@ -2,19 +2,31 @@
 
 # Elevate Your Coding Experience with Grace and Aloha 💻 🖥️
 
-## **Developed By Grace Chen Abudi** 👩🏽‍💻
+**Developed By Grace Chen Abudi** 👩🏽‍💻
 
-## 📢 Overview
+## 📣 Overview:
 
-- Intro
-- Tech Stack
-- Roadmap
+- [AlohaGracefulCode 🌺](#alohagracefulcode-)
+- [Elevate Your Coding Experience with Grace and Aloha 💻 🖥️](#elevate-your-coding-experience-with-grace-and-aloha--️)
+  - [📣 Overview:](#-overview)
+  - [🔎 Intro:](#-intro)
+  - [🧰 Tech Stack:](#-tech-stack)
+  - [🛠 Techniques:](#-techniques)
+  - [🎯 Roadmap](#-roadmap)
+    - [Phase 1: 🏗️ Foundation](#phase-1-️-foundation)
+    - [Phase 2: 👥 Collaboration](#phase-2--collaboration)
+    - [Phase 3: ⭐ Gamification](#phase-3--gamification)
+    - [Phase 4: 📊 Optimization](#phase-4--optimization)
+    - [Phase 5: 📈 Expansion](#phase-5--expansion)
+  - [Getting Started](#getting-started)
+  - [Learn More](#learn-more)
+  - [Deploy on Vercel](#deploy-on-vercel)
 
-## 🔎 Intro
+## 🔎 Intro:
 
 Welcome to AlohaGracefulCode, a coding challenge platform that combines the artistry of elegant problem-solving with the warm embrace of the Aloha spirit. This platform combines the precision of coding with the beauty of thoughtful problem-solving, creating a space where developers of all levels can flourish. This is a LeetCode-inspired coding challenge platform.
 
-## 🛠 Technologies & Techniques
+## 🧰 Tech Stack:
 
 **Client:**
 
@@ -27,7 +39,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - Firebase
 
-**Techniques**
+## 🛠 Techniques:
 
 - Hooks + Custom Hooks
 - RecoilJS
