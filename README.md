@@ -1,13 +1,13 @@
-# AlohaGracefulCode 🌺
+# AlohaGracefulCode 💻 🖥️
 
-# Elevate Your Coding Experience with Grace and Aloha 💻 🖥️
+# Elevate Your Coding Experience with Grace and Aloha 🌺
 
 **Developed By Grace Chen Abudi** 👩🏽‍💻
 
 ## 📣 Overview:
 
-- [AlohaGracefulCode 🌺](#alohagracefulcode-)
-- [Elevate Your Coding Experience with Grace and Aloha 💻 🖥️](#elevate-your-coding-experience-with-grace-and-aloha--️)
+- [AlohaGracefulCode 💻 🖥️](#alohagracefulcode--️)
+- [Elevate Your Coding Experience with Grace and Aloha 🌺](#elevate-your-coding-experience-with-grace-and-aloha-)
   - [📣 Overview:](#-overview)
   - [🔎 Intro:](#-intro)
   - [🧰 Tech Stack:](#-tech-stack)
