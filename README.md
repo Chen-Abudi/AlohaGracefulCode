@@ -18,6 +18,7 @@
     - [Phase 3: ⭐ Gamification](#phase-3--gamification)
     - [Phase 4: 📊 Optimization](#phase-4--optimization)
     - [Phase 5: 📈 Expansion](#phase-5--expansion)
+    - [Additional Link: Buymeacoffee ☕](#additional-link-buymeacoffee-)
   - [Getting Started](#getting-started)
   - [Learn More](#learn-more)
   - [Deploy on Vercel](#deploy-on-vercel)
@@ -137,6 +138,10 @@ For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoil
 
 - [ ] Translate the platform into multiple languages to broaden its accessibility.
 - [ ] Explore cultural adaptations for a more inclusive experience.
+
+---
+
+### Additional Link: Buymeacoffee ☕
 
 ---
 
