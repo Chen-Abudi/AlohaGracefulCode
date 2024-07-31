@@ -18,6 +18,7 @@
     - [Phase 3: ⭐ Gamification](#phase-3--gamification)
     - [Phase 4: 📊 Optimization](#phase-4--optimization)
     - [Phase 5: 📈 Expansion](#phase-5--expansion)
+    - [Join the Journey: Buymeacoffee ☕](#join-the-journey-buymeacoffee-)
   - [Show some Love at 👉🏽 buymeacoffee](#show-some-love-at--buymeacoffee)
   - [Getting Started](#getting-started)
   - [Learn More](#learn-more)
@@ -141,7 +142,7 @@ For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoil
 
 ---
 
-**Additional Link: Buymeacoffee ☕**
+### Join the Journey: Buymeacoffee ☕
 
 **Aloha 🌺**
 
