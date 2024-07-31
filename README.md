@@ -18,7 +18,7 @@
     - [Phase 3: ⭐ Gamification](#phase-3--gamification)
     - [Phase 4: 📊 Optimization](#phase-4--optimization)
     - [Phase 5: 📈 Expansion](#phase-5--expansion)
-    - [Additional Link: Buymeacoffee ☕](#additional-link-buymeacoffee-)
+  - [Show some Love at 👉🏽 buymeacoffee](#show-some-love-at--buymeacoffee)
   - [Getting Started](#getting-started)
   - [Learn More](#learn-more)
   - [Deploy on Vercel](#deploy-on-vercel)
@@ -141,7 +141,15 @@ For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoil
 
 ---
 
-### Additional Link: Buymeacoffee ☕
+**Additional Link: Buymeacoffee ☕**
+
+**Aloha 🌺**
+
+If you've found value in my work and would like to support me, consider buying me a coffee! Your support helps me continue creating and sharing content that I hope inspires and makes a difference in the digital world. Every contribution is greatly appreciated and fuels my passion to keep going. Thank you for being part of this journey!
+
+Mahalo 🌺🤙🏽
+
+## Show some Love at 👉🏽 [buymeacoffee](https://buymeacoffee.com/graceabudi)
 
 ---
 
