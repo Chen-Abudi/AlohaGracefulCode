@@ -1,5 +1,8 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+
+import Logo from "../../../public/logo-banner.png";
 
 type TopbarProps = {};
 
@@ -9,7 +12,13 @@ const Topbar: React.FC<TopbarProps> = () => {
       <div
         className={`flex w-full items-center justify-between max-w-[1200px] mx-auto`}
       >
-        <Link href="/" className="h-[22px] flex-1">
+        <Link href="/" className="h-24 flex-1 relative">
+          <Image
+            src={Logo}
+            alt="Logo"
+            width={360}
+            className="h-full absolute top-0 left-[-58px]"
+          />
           {/* <img className="h-full" src="/logo-full.png" alt="Logo" /> */}
         </Link>
 
