@@ -19,7 +19,6 @@ const Topbar: React.FC<TopbarProps> = () => {
             width={360}
             className="h-full absolute top-0 left-[-58px]"
           />
-          {/* <img className="h-full" src="/logo-full.png" alt="Logo" /> */}
         </Link>
 
         <div className="flex items-center space-x-4 flex-1 justify-end">
