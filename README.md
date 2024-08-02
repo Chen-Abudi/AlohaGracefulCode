@@ -43,6 +43,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - Hooks + Custom Hooks
 - RecoilJS
 - atoms
+- Mock Problems
 
 For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoiljs.org/)
 
@@ -58,10 +59,12 @@ For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoil
 - [x] Implement user auth modals functionality.
 - [x] Implement user authentication and account management.
 
-2. **Problem Database:**
+<!-- 2. **Problem Database:** -->
 
-- [ ] Populate the platform with a diverse set of coding challenges.
-- [ ] Categorize problems based on difficulty, topics, and tags.
+2. **Problem Challenges:**
+
+- [x] Populate the platform with a diverse set of coding challenges.
+- [x] Categorize problems based on difficulty, topics, and tags.
 
 3. **Interactive Coding Environment:**
 
