@@ -1,6 +1,6 @@
 import ProblemsTable from "@/components/ProblemsTable/ProblemsTable";
 import Topbar from "@/components/Topbar/Topbar";
-import Head from "next/head";
+// import Head from "next/head";
 
 export default function Home() {
   return (

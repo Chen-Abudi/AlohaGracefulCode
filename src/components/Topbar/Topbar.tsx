@@ -18,6 +18,7 @@ const Topbar: React.FC<TopbarProps> = () => {
             alt="Logo"
             width={360}
             className="h-full absolute top-0 left-[-58px]"
+            priority
           />
         </Link>
 
