@@ -18,8 +18,8 @@
     - [Phase 3: ⭐ Gamification](#phase-3--gamification)
     - [Phase 4: 📊 Optimization](#phase-4--optimization)
     - [Phase 5: 📈 Expansion](#phase-5--expansion)
-  - [Join the Journey: Buymeacoffee ☕](#join-the-journey-buymeacoffee-)
-    - [Show some Love at 👉🏽 buymeacoffee](#show-some-love-at--buymeacoffee)
+  - [Join the Journey:](#join-the-journey)
+    - [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
 
 ## 🔎 Intro:
 
@@ -141,7 +141,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 ---
 
-## Join the Journey: Buymeacoffee ☕
+## Join the Journey:
 
 **Aloha 🌺**
 
@@ -149,4 +149,4 @@ If you've found value in my work and would like to support me, consider buying m
 
 Mahalo 🌺🤙🏽
 
-### Show some Love at 👉🏽 [buymeacoffee](https://buymeacoffee.com/graceabudi)
+### Show some Love at 👉🏽 [buymeacoffee ☕](https://buymeacoffee.com/graceabudi)
