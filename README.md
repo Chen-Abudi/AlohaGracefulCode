@@ -58,8 +58,6 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - [x] Implement user auth modals functionality.
 - [x] Implement user authentication and account management.
 
-<!-- 2. **Problem Database:** -->
-
 2. **Problem Challenges:**
 
 - [x] Populate the platform with a diverse set of coding challenges.
