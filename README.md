@@ -73,7 +73,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - [ ] Create user profiles to track individual progress and achievements.
 - [ ] Implement a customizable dashboard for a personalized user experience.
 
-  ***
+---
 
 ### Phase 2: 👥 Collaboration
 
@@ -132,10 +132,10 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - [ ] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
 
-3. **Internationalization:**
+<!-- 3. **Internationalization:**
 
 - [ ] Translate the platform into multiple languages to broaden its accessibility.
-- [ ] Explore cultural adaptations for a more inclusive experience.
+- [ ] Explore cultural adaptations for a more inclusive experience. -->
 
 ---
 
