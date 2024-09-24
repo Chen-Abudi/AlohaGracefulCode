@@ -11,8 +11,12 @@ const config = {
   theme: {
     extend: {
       colors: {
-        "dark-layer-1": "rgb(40,40,40)",
-        "dark-layer-2": "rgb(26,26,26)",
+        // "dark-layer-1": "rgb(40,40,40)",
+        // "dark-layer-2": "rgb(26,26,26)",
+
+        "dark-layer-1": "rgb(54, 80, 108)",
+        "dark-layer-2": "rgb(35, 49, 66)",
+
         "dark-label-2": "rgba(239, 241, 246, 0.75)",
         "dark-divider-border-2": "rgb(61, 61, 61)",
         "dark-fill-2": "hsla(0,0%,100%,.14)",
@@ -33,6 +37,8 @@ const config = {
         "soft-peach-1": "rgb(250, 223, 161)",
         "ivory-blush-1": "rgb(255, 244, 234)",
         "muted-sky-1": "rgb(126, 172, 181)",
+        // "": "rgb(165, 222, 241)",
+        // "": "rgb(235, 247, 253)",
       },
     },
   },
