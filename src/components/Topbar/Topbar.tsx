@@ -3,10 +3,14 @@ import React from "react";
 import Image from "next/image";
 
 import Logo from "../../../public/logo-banner.png";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { auth } from "@/firebase/firebase";
 
 type TopbarProps = {};
 
 const Topbar: React.FC<TopbarProps> = () => {
+  const [user] = useAuthState(auth);
+
   return (
     <nav className="relative flex h-[50px] w-full shrink-0 items-center px-5 bg-dark-layer-1 text-dark-gray-7">
       <div
@@ -32,11 +36,25 @@ const Topbar: React.FC<TopbarProps> = () => {
               Premium
             </a>
           </div>
-          <Link href="/auth">
-            <button className="bg-dark-fill-3 py-1 px-2 cursor-pointer rounded text-dark-gray-8 hover:bg-dark-fill-2">
-              Sign In
-            </button>
-          </Link>
+          {!user && (
+            <Link href="/auth">
+              <button className="bg-dark-fill-3 py-1 px-2 cursor-pointer rounded text-dark-gray-8 hover:bg-dark-fill-2">
+                Sign In
+              </button>
+            </Link>
+          )}
+          {user && (
+            <div className="relative group cursor-pointer">
+              <img
+                className="w-8 h-8 rounded-full"
+                src="/avatar.png"
+                alt="User Profile Photo"
+              />
+              <div className="absolute top-10 left-2/4 -translate-x-2/4 mx-auto bg-dark-layer-1 text-brand-orange p-2 rounded shadow-lg z-40 group-hover:scale-100 scale-0 transition-all duration-300 ease-linear">
+                <p className="text-sm">{user.email}</p>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </nav>
