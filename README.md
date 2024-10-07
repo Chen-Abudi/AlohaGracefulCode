@@ -31,6 +31,9 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - Next.js
 - React
+- React-Toastify
+  - Allows you to add notifications to your application with ease.
+  - For more info on **React-Toastify**, Click [**&#128073;&#127997;HERE**](https://www.npmjs.com/package/react-toastify)
 - TypeScript
 - TailwindCSS
 
