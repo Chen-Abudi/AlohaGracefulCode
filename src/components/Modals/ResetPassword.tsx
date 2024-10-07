@@ -1,15 +1,38 @@
-import React from "react";
+import { auth } from "@/firebase/firebase";
+import React, { useEffect, useState } from "react";
+import { useSendPasswordResetEmail } from "react-firebase-hooks/auth";
 
 type ResetPasswordProps = {};
 
 const ResetPassword: React.FC<ResetPasswordProps> = () => {
+  const [email, setEmail] = useState("");
+  const [sendPasswordResetEmail, sending, error] =
+    useSendPasswordResetEmail(auth);
+
+  const handleReset = async (evt: React.FormEvent<HTMLFormElement>) => {
+    evt.preventDefault();
+    const success = await sendPasswordResetEmail(email);
+    if (success) {
+      alert("Sent email");
+    }
+  };
+
+  useEffect(() => {
+    if (error) {
+      alert(error.message);
+    }
+  }, [error]);
+
   return (
-    <form className="space-y-5 px-5 lg:px-7 pb-3 sm:pb-5 xl:pb-7">
+    <form
+      className="space-y-5 px-5 lg:px-7 pb-3 sm:pb-5 xl:pb-7"
+      onSubmit={handleReset}
+    >
       <h3 className="text-xl font-medium text-white">Reset Password</h3>
       <p className="text-sm text-white">
-        Forgotten your password? We all been there but no worries. Enter your
-        email address below, and we&apos;ll send you an email allowing you to
-        reset it.
+        Forgot your password? We all been there but no worries. Enter your email
+        address below, and we&apos;ll send you an email allowing you to reset
+        it.
       </p>
       <div>
         <label
@@ -24,6 +47,7 @@ const ResetPassword: React.FC<ResetPasswordProps> = () => {
           id="email"
           name="email"
           placeholder="name@company.com"
+          onChange={(evt) => setEmail(evt.target.value)}
         />
       </div>
       <button
