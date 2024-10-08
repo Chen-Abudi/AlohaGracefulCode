@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useSetRecoilState } from "recoil";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { useRouter } from "next/router";
+import { Bounce, toast } from "react-toastify";
 
 type SignupProps = {};
 
@@ -32,7 +33,18 @@ const Signup: React.FC<SignupProps> = () => {
   const handleRegister = async (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
     if (!inputs.email || !inputs.password || !inputs.displayYourName)
-      return alert("Please fill all input fields");
+      return toast.warn("Please fill all input fields", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        transition: Bounce,
+      });
+    // return alert("Please fill all input fields");
 
     try {
       const newUser = await createUserWithEmailAndPassword(
@@ -42,12 +54,31 @@ const Signup: React.FC<SignupProps> = () => {
       if (!newUser) return;
       router.push("/");
     } catch (error: any) {
-      alert(error.message);
+      toast.error(error.message, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
     }
   };
 
   useEffect(() => {
-    if (error) alert(error.message);
+    if (error)
+      toast.error(error.message, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
   }, [error]);
 
   return (

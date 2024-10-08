@@ -1,6 +1,7 @@
 import { auth } from "@/firebase/firebase";
 import React, { useEffect, useState } from "react";
 import { useSendPasswordResetEmail } from "react-firebase-hooks/auth";
+import { toast } from "react-toastify";
 
 type ResetPasswordProps = {};
 
@@ -13,13 +14,32 @@ const ResetPassword: React.FC<ResetPasswordProps> = () => {
     evt.preventDefault();
     const success = await sendPasswordResetEmail(email);
     if (success) {
-      alert("Sent email");
+      toast.success("Password reset email sent successfully", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
     }
   };
 
   useEffect(() => {
     if (error) {
-      alert(error.message);
+      toast.error(error.message, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
+      // alert(error.message);
     }
   }, [error]);
 
