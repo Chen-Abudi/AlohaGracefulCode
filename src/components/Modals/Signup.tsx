@@ -44,7 +44,6 @@ const Signup: React.FC<SignupProps> = () => {
         theme: "colored",
         transition: Bounce,
       });
-    // return alert("Please fill all input fields");
 
     try {
       const newUser = await createUserWithEmailAndPassword(

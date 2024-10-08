@@ -40,7 +40,6 @@ const Login: React.FC<LoginProps> = () => {
         theme: "colored",
         transition: Bounce,
       });
-    // return alert("Please fill all input fields");
 
     try {
       const newUser = await signInWithEmailAndPassword(

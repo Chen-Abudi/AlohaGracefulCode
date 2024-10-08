@@ -39,7 +39,6 @@ const ResetPassword: React.FC<ResetPasswordProps> = () => {
         progress: undefined,
         theme: "colored",
       });
-      // alert(error.message);
     }
   }, [error]);
 
