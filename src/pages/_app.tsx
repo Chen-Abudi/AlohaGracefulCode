@@ -20,7 +20,6 @@ export default function App({ Component, pageProps }: AppProps) {
           name="keywords"
           content="Next.js, React, TypeScript, Tailwindcss, Firebase, Code Challenges, Grace, Aloha"
         />
-        {/* <link rel="" href=""/> */}
         <link rel="icon" href="/favicon.png" />
       </Head>
       <ToastContainer />
