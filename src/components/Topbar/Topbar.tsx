@@ -21,16 +21,8 @@ const Topbar: React.FC<TopbarProps> = () => {
       <div
         className={`flex w-full items-center justify-between max-w-[1200px] mx-auto`}
       >
-        {/* <Link href="/" className="h-24 flex-1 relative"> */}
         <Link href="/" className="absolute top-[-20px] left-[-58px] w-full">
-          <Image
-            src={Logo}
-            alt="Logo"
-            // className="absolute top-[-20px] left-[-58px] w-full"
-            width={290}
-            height={290}
-            priority
-          />
+          <Image src={Logo} alt="Logo" width={290} height={290} priority />
         </Link>
 
         <div className="flex items-center space-x-4 flex-1 justify-end">
