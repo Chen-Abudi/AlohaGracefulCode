@@ -20,7 +20,9 @@ const NavBar: React.FC<NavBarProps> = () => {
         <Image
           src={Logo}
           alt="AlohaGracefulCode Logo"
-          className="relative top-2 right-7 w-auto"
+          className="absolute top-0 left-7"
+          width={300}
+          height={300}
           priority
         />
       </Link>

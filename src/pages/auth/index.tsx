@@ -6,6 +6,8 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useRecoilValue } from "recoil";
+import Image from "next/image";
+import Logo from "../../../public/hero.png";
 
 type AuthPageProps = {};
 
@@ -28,6 +30,13 @@ const AuthPage: React.FC<AuthPageProps> = () => {
         <NavBar />
         <div className="flex items-center justify-center h-[calc(100vh-5rem)] pointer-events-none select-none">
           {/* <Image src={Logo} alt="Hero Image" ClassName="" priority /> */}
+          <Image
+            src={Logo}
+            alt="Hero Image"
+            width={700}
+            height={700}
+            priority
+          />
         </div>
         {authModal.isOpen && <AuthModal />}
       </div>
