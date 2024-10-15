@@ -35,7 +35,7 @@ const Timer: React.FC<TimerProps> = () => {
   }, [displayTimer]);
 
   return (
-    <div>
+    <div className="relative z-10">
       {displayTimer ? (
         <div className="flex items-center space-x-2 bg-dark-fill-3 p-1.5 cursor-pointer rounded hover:bg-dark-fill-2">
           <div className="text-sm">{formatTime(time)}</div>
