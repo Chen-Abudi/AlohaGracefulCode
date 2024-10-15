@@ -18,10 +18,6 @@ const Timer: React.FC<TimerProps> = () => {
   };
   // 00:10:22
 
-  // const handleClockClick = () => {
-  //   setDisplayTimer(true);
-  // };
-
   useEffect(() => {
     let intervalId: NodeJS.Timeout;
 
