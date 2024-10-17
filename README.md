@@ -49,6 +49,8 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - atoms
 - Mock Problems
 - Youtube Modals
+- SplitJS
+  - For more info on **Split.js**, Click [**&#128073;&#127997;HERE**](https://split.js.org/)
 
 ---
 
