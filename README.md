@@ -45,11 +45,13 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - Hooks + Custom Hooks
 - RecoilJS
+  - RecoilJS is a state management framework for React.
   - For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoiljs.org/)
 - atoms
 - Mock Problems
 - Youtube Modals
 - SplitJS
+  - SplitJS is a library of utilities for resizable split views.
   - For more info on **Split.js**, Click [**&#128073;&#127997;HERE**](https://split.js.org/)
 
 ---
