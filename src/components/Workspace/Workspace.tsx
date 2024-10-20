@@ -9,6 +9,7 @@ const Workspace: React.FC<WorkspaceProps> = () => {
     <Split className="split" minSize={0}>
       <ProblemDescription />
       <div>The code editor will be here</div>
+      // TODO: Add the playground code editor
     </Split>
   );
 };
