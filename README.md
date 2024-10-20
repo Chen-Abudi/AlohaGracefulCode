@@ -74,9 +74,10 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 3. **Interactive Coding Environment:**
 
 - [x] Develop an intuitive coding environment for users to solve problems.
-<!-- - [ ] Include features like syntax highlighting, code completion, and real-time testing. -->
+- [x] Create an interactive workspace
+- [ ] Include features like syntax highlighting, code completion, and real-time testing.
 
-4. **User Profiles:**
+1. **User Profiles:**
 
 - [ ] Create user profiles to track individual progress and achievements.
 - [ ] Implement a customizable dashboard for a personalized user experience.
