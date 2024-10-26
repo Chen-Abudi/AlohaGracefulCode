@@ -39,9 +39,3 @@ const PreferenceNavigation: React.FC<PreferenceNavigationProps> = () => {
 };
 
 export default PreferenceNavigation;
-
-// relative px-3 py-1.5 font-medium rounded items-center transition-all
-//         focus:outline-none inline-flex ml-auto p-1 mr-2 hover:bg-dark-fill-3 group
-
-// absolute top-7 right-[-18px] w-auto min-w-max p-2 m-2 text-sm rounded-md shadow-md z-10 text-dark-layer-2 bg-gray-200
-//           origin-center scale-0 transition-all duration-100 ease-linear group-hover:scale-100
