@@ -43,7 +43,8 @@ body {
 /* Code Editor */
 .cm-scroller,
 .cm-gutters {
-  background-color: #282828 !important;
+  background-color: rgb(27, 40, 58) !important;
+  /* background-color: #282828 !important; */
 }
 .cm-focused {
   outline: none !important;
