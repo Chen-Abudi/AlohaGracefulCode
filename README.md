@@ -11,7 +11,7 @@
   - [📣 Overview:](#-overview)
   - [🔎 Intro:](#-intro)
   - [🧰 Tech Stack:](#-tech-stack)
-  - [🛠 Techniques:](#-techniques)
+  - [🛠 Techniques \& Tools:](#-techniques--tools)
   - [🎯 Roadmap](#-roadmap)
     - [Phase 1: 🏗️ Foundation](#phase-1-️-foundation)
     - [Phase 2: 👥 Collaboration](#phase-2--collaboration)
@@ -41,7 +41,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - Firebase
 
-## 🛠 Techniques:
+## 🛠 Techniques & Tools:
 
 - Hooks + Custom Hooks
 - RecoilJS
@@ -53,6 +53,11 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - SplitJS
   - SplitJS is a library of utilities for resizable split views.
   - For more info on **Split.js**, Click [**&#128073;&#127997;HERE**](https://split.js.org/)
+- CodeMirror
+  - **CodeMirror** is a web-based code editor component designed to integrate seamlessly into websites, offering a versatile test input field with extensive editing capabilities. It features a robust API, enabling developers to easily extend and customize functionality.
+  - For more info on **CodeMirror**, Click [**&#128073;&#127997;HERE**](https://codemirror.net/)
+  - Direct to its [**_Npm package_**](https://www.npmjs.com/package/codemirror)
+  - [**_CodeMirror for React_**](https://uiwjs.github.io/react-codemirror/)
 
 ---
 
