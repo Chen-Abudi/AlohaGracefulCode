@@ -56,8 +56,8 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - CodeMirror
   - **CodeMirror** is a web-based code editor component designed to integrate seamlessly into websites, offering a versatile test input field with extensive editing capabilities. It features a robust API, enabling developers to easily extend and customize functionality.
   - For more info on **CodeMirror**, Click [**&#128073;&#127997;HERE**](https://codemirror.net/)
-  - Direct to its [**_Npm package_**](https://www.npmjs.com/package/codemirror)
-  - [**_CodeMirror for React_**](https://uiwjs.github.io/react-codemirror/)
+  - For the Npm package, Click [**&#128073;&#127997;HERE**](https://www.npmjs.com/package/codemirror)
+  - For **CodeMirror for React** [**&#128073;&#127997;HERE**](https://uiwjs.github.io/react-codemirror/)
 
 ---
 
