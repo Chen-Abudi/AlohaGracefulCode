@@ -44,16 +44,16 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 ## 🛠 Techniques & Tools:
 
 - Hooks + Custom Hooks
-- RecoilJS
+- `RecoilJS:`
   - **RecoilJS** is a state management framework for React.
   - For more info on **RecoilJS**, Click [**&#128073;&#127997;HERE**](https://recoiljs.org/)
 - atoms
 - Mock Problems
 - Youtube Modals
-- SplitJS
+- `SplitJS:`
   - **SplitJS** is a library of utilities for resizable split views.
   - For more info on **Split.js**, Click [**&#128073;&#127997;HERE**](https://split.js.org/)
-- CodeMirror
+- `CodeMirror:`
   - **CodeMirror** is a web-based code editor component designed to integrate seamlessly into websites, offering a versatile test input field with extensive editing capabilities. It features a robust API, enabling developers to easily extend and customize functionality.
   - For more info on **CodeMirror**, Click [**&#128073;&#127997;HERE**](https://codemirror.net/)
   - For the Npm package, Click [**&#128073;&#127997;HERE**](https://www.npmjs.com/package/codemirror)
