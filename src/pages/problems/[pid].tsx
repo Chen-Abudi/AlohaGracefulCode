@@ -15,3 +15,6 @@ const ProblemPage: React.FC<ProblemPageProps> = () => {
 };
 
 export default ProblemPage;
+
+// TODO: fetch the local data
+// SSG

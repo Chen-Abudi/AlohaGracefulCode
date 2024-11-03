@@ -10,6 +10,10 @@ import EditorFooter from "./EditorFooter";
 type PlaygroundProps = {};
 
 const Playground: React.FC<PlaygroundProps> = () => {
+  const boilerplate = `function twoSum(nums, target) {
+  // Write your code here
+  };`;
+
   return (
     <div className="relative flex flex-col bg-dark-layer-1 overflow-x-hidden">
       <PreferenceNavigation />
@@ -22,7 +26,7 @@ const Playground: React.FC<PlaygroundProps> = () => {
       >
         <div className="overflow-auto w-full">
           <CodeMirror
-            value="const a = 1;"
+            value={boilerplate}
             theme={vscodeDark}
             style={{ fontSize: 16 }}
             extensions={[javascript()]}
