@@ -90,11 +90,6 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
                   </div>
                 </div>
               ))}
-              {/* Example 1 */}
-
-              {/* Example 2 */}
-
-              {/* Example 3 */}
             </div>
 
             {/* Constraints */}
@@ -104,19 +99,6 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
                 <div
                   dangerouslySetInnerHTML={{ __html: problem.constraints }}
                 />
-                {/* <li className="mt-2">
-                  <code>2 ≤ nums.length ≤ 10</code>
-                </li>
-
-                <li className="mt-2">
-                  <code>-10 ≤ nums[i] ≤ 10</code>
-                </li>
-                <li className="mt-2">
-                  <code>-10 ≤ target ≤ 10</code>
-                </li>
-                <li className="mt-2 text-sm">
-                  <strong>Only one valid answer exists.</strong>
-                </li> */}
               </ul>
             </div>
           </div>
