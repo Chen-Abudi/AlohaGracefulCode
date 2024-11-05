@@ -3,10 +3,13 @@ import React from "react";
 import { BsCheck2Circle } from "react-icons/bs";
 import { AiFillLike, AiFillDislike } from "react-icons/ai";
 import { TiStarOutline } from "react-icons/ti";
+import { Problem } from "@/utils/types/problem";
 
-type ProblemDescriptionProps = {};
+type ProblemDescriptionProps = {
+  problem: Problem;
+};
 
-const ProblemDescription: React.FC<ProblemDescriptionProps> = () => {
+const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
   return (
     <div className="bg-dark-layer-1">
       {/* Tab */}
@@ -26,7 +29,7 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = () => {
           <div className="w-full">
             <div className="flex space-x-4">
               <div className="flex-1 mr-2 text-lg text-white font-medium">
-                1. Two Sum
+                {problem.title}
               </div>
             </div>
             <div className="flex items-center mt-3">
@@ -53,7 +56,10 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = () => {
 
             {/* Problem Statement (Paragraphs) */}
             <div className="text-white text-sm">
-              <p className="mt-3">
+              <div
+                dangerouslySetInnerHTML={{ __html: problem.problemStatement }}
+              />
+              {/* <p className="mt-3">
                 Given an array of integers <code>nums</code> and an integer{" "}
                 <code>target</code>, return
                 <em>
@@ -66,13 +72,42 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = () => {
                 <strong>exactly one solution</strong>, and you may not use the
                 same element twice.
               </p>
-              <p className="mt-3">You can return the answer in any order.</p>
+              <p className="mt-3">You can return the answer in any order.</p> */}
             </div>
 
             {/* Examples: */}
             <div className="mt-4">
+              {problem.examples.map((example, index) => (
+                <div key={example.id}>
+                  <p className="font-medium text-white ">
+                    Example {index + 1}:
+                  </p>
+                  {example.img && (
+                    <img
+                      className="mt-2"
+                      src={example.img}
+                      alt="Example code"
+                    />
+                  )}
+                  <div className="example-card">
+                    <pre>
+                      <strong className="text-white">Input: </strong>
+                      {example.inputText} <br />
+                      <strong>Output:</strong>
+                      {example.outputText} <br />
+                      {example.explanation && (
+                        <>
+                          <strong>Explanation:</strong> {example.explanation}
+                        </>
+                      )}
+                      {/* <strong>Explanation:</strong>Because nums[0] + nums[1] ==
+                      9, we return [0, 1]. */}
+                    </pre>
+                  </div>
+                </div>
+              ))}
               {/* Example 1 */}
-              <div>
+              {/* <div>
                 <p className="font-medium text-white ">Example 1: </p>
                 <div className="example-card">
                   <pre>
@@ -83,10 +118,10 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = () => {
                     we return [0, 1].
                   </pre>
                 </div>
-              </div>
+              </div> */}
 
               {/* Example 2 */}
-              <div>
+              {/* <div>
                 <p className="font-medium text-white ">Example 2: </p>
                 <div className="example-card">
                   <pre>
@@ -97,9 +132,9 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = () => {
                     we return [1, 2].
                   </pre>
                 </div>
-              </div>
+              </div> */}
               {/* Example 3 */}
-              <div>
+              {/* <div>
                 <p className="font-medium text-white ">Example 3: </p>
                 <div className="example-card">
                   <pre>
@@ -109,14 +144,17 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = () => {
                     <strong>Output:</strong> [0,1] <br />
                   </pre>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Constraints */}
-            <div className="my-5">
+            <div className="my-7 pb-5">
               <div className="text-white text-sm font-medium">Constraints:</div>
               <ul className="text-white ml-5 list-disc">
-                <li className="mt-2">
+                <div
+                  dangerouslySetInnerHTML={{ __html: problem.constraints }}
+                />
+                {/* <li className="mt-2">
                   <code>2 ≤ nums.length ≤ 10</code>
                 </li>
 
@@ -128,7 +166,7 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = () => {
                 </li>
                 <li className="mt-2 text-sm">
                   <strong>Only one valid answer exists.</strong>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
