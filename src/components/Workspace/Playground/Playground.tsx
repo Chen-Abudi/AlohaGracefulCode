@@ -15,10 +15,6 @@ type PlaygroundProps = {
 const Playground: React.FC<PlaygroundProps> = ({ problem }) => {
   const [activeTestCaseId, setActiveTestCaseId] = useState<number>(0);
 
-  // const boilerplate = `function twoSum(nums, target) {
-  // // Write your code here
-  // };`;
-
   return (
     <div className="relative flex flex-col bg-dark-layer-1 overflow-x-hidden">
       <PreferenceNavigation />
@@ -68,41 +64,6 @@ const Playground: React.FC<PlaygroundProps> = ({ problem }) => {
                 </div>
               </div>
             ))}
-            {/* Case 1 */}
-            {/* <div className="items-start mt-2 mr-2 text-white">
-              <div className="flex items-center flex-wrap gap-y-4">
-                <div
-                  className="relative items-center font-medium transition-all focus:outline-none inline-flex bg-dark-fill-3
-                hover:bg-dark-fill-2 rounded-lg px-4 py-1 whitespace-nowrap cursor-pointer"
-                >
-                  Case 1
-                </div>
-              </div>
-            </div> */}
-
-            {/* Case 2 */}
-            {/* <div className="items-start mt-2 mr-2 text-white">
-              <div className="flex items-center flex-wrap gap-y-4">
-                <div
-                  className="relative items-center font-medium transition-all focus:outline-none inline-flex bg-dark-fill-3
-                hover:bg-dark-fill-2 rounded-lg px-4 py-1 whitespace-nowrap cursor-pointer"
-                >
-                  Case 2
-                </div>
-              </div>
-            </div> */}
-
-            {/* Case 3 */}
-            {/* <div className="items-start mt-2 mr-2 text-white">
-              <div className="flex items-center flex-wrap gap-y-4">
-                <div
-                  className="relative items-center font-medium transition-all focus:outline-none inline-flex bg-dark-fill-3
-                hover:bg-dark-fill-2 rounded-lg px-4 py-1 whitespace-nowrap cursor-pointer"
-                >
-                  Case 3
-                </div>
-              </div>
-            </div> */}
           </div>
 
           <div className="my-4 font-semibold">
