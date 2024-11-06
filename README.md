@@ -80,11 +80,12 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - [x] Develop an intuitive coding environment for users to solve problems.
 - [x] Create an interactive workspace with playground and code editor features.
-- [ ] Include features like syntax highlighting, code completion, and real-time testing.
+- [x] Fetched the problems data dynamically.
+<!-- - [ ] Include features like syntax highlighting, code completion, and real-time testing. -->
 
 1. **User Profiles:**
 
-- [ ] Create user profiles to track individual progress and achievements.
+- [x] Create user profiles to track individual progress and achievements.
 - [ ] Implement a customizable dashboard for a personalized user experience.
 
 ---
@@ -140,7 +141,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 1. **New Problem Sets:**
 
 - [ ] Continuously add new coding challenges to keep the problem database fresh and challenging.
-- [ ] Explore partnerships with educational institutions or companies to create specialized problem sets.
+<!-- - [ ] Explore partnerships with educational institutions or companies to create specialized problem sets. -->
 
 2. **Educational Resources:**
 
