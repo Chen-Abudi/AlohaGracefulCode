@@ -41,6 +41,11 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - Firebase
 
+**Cloud:**
+
+- `FireStore`:
+  - **Cloud Firestore** is a NoSQL document database that lets you easily store, sync, and query data for your web apps and mobile - at global scale.
+
 ## 🛠 Techniques & Tools:
 
 - Hooks + Custom Hooks
