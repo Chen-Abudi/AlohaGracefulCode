@@ -20,7 +20,7 @@ export const problems: Problem[] = [
     id: "reverse-linked-list",
     title: "Reverse Linked List",
     difficulty: "Easy",
-    category: "Array",
+    category: "Linked List",
     order: 2,
     videoId: "",
   },
@@ -102,7 +102,7 @@ export const problems: Problem[] = [
     difficulty: "Easy",
     category: "Dynamic Programming",
     order: 12,
-    videoId: "jkl012",
+    videoId: "",
   },
   {
     id: "edit-distance",
@@ -118,7 +118,7 @@ export const problems: Problem[] = [
     difficulty: "Medium",
     category: "Dynamic Programming",
     order: 14,
-    videoId: "pqr678",
+    videoId: "",
   },
   {
     id: "palindrome-partitioning",
