@@ -38,8 +38,6 @@ export default function Home() {
   //   alert("Save to DB");
   // };
 
-  // console.log(inputs);
-
   return (
     <>
       <main className="bg-dark-layer-2 min-h-screen">

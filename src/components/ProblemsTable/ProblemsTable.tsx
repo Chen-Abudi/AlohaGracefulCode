@@ -137,8 +137,6 @@ function useGetProblems(
       });
       setProblems(temp);
       setLoadingProblems(false);
-      // console.log(temp);
-      // console.log(querySnapshot);
     };
 
     getProblems();
