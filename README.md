@@ -18,7 +18,6 @@
     - [Phase 3: ⭐ Gamification](#phase-3--gamification)
     - [Phase 4: 📊 Optimization](#phase-4--optimization)
     - [Phase 5: 📈 Expansion](#phase-5--expansion)
-  - [Join the Journey:](#join-the-journey)
     - [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
 
 ## 🔎 Intro:
@@ -91,6 +90,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 1. **User Profiles:**
 
 - [x] Create user profiles to track individual progress and achievements.
+- [x] Create user accounts in DB.
 - [ ] Implement a customizable dashboard for a personalized user experience.
 
 ---
@@ -146,9 +146,8 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 1. **New Problem Sets:**
 
 - [ ] Continuously add new coding challenges to keep the problem database fresh and challenging.
-<!-- - [ ] Explore partnerships with educational institutions or companies to create specialized problem sets. -->
 
-2. **Educational Resources:**
+1. **Educational Resources:**
 
 - [ ] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
 
@@ -159,12 +158,17 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 ---
 
-## Join the Journey:
+<details>
+<summary><h2>🫶🏽 Join the Journey:</h2></summary>
 
 **Aloha 🌺**
 
-If you've found value in my work and would like to support me, consider buying me a coffee! Your support helps me continue creating and sharing content that I hope inspires and makes a difference in the digital world. Every contribution is greatly appreciated and fuels my passion to keep going. Thank you for being part of this journey!
+**_Hope y'all doing well!_**
+
+If you've found value in my work and would like to support me, consider buying me a coffee! (Though, I'm not a coffee person but more like hot cocoa person lol 😄) Your support helps me continue creating and sharing content that I hope inspires and makes a difference in the digital world. Every contribution is greatly appreciated and fuels my passion to keep going. Thank you for being part of this journey!
 
 Mahalo 🌺🤙🏽
 
 ### Show some Love at 👉🏽 [buymeacoffee ☕](https://buymeacoffee.com/graceabudi)
+
+</details>
