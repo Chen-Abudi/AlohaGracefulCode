@@ -34,7 +34,6 @@ const Signup: React.FC<SignupProps> = () => {
   const handleRegister = async (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
     if (!inputs.email || !inputs.password || !inputs.displayYourName)
-      // return alert("Please fill all input fields");
       return toast.warn("Please fill all input fields", {
         position: "top-center",
         autoClose: 5000,
@@ -73,10 +72,6 @@ const Signup: React.FC<SignupProps> = () => {
 
       router.push("/");
     } catch (error: any) {
-      // toast.error(error.message, {
-      //   position: "top-center",
-      // });
-
       toast.error(error.message, {
         position: "top-center",
         autoClose: 5000,
@@ -94,7 +89,6 @@ const Signup: React.FC<SignupProps> = () => {
 
   useEffect(() => {
     if (error)
-      // alert(error.message);
       toast.error(error.message, {
         position: "top-center",
         autoClose: 5000,
