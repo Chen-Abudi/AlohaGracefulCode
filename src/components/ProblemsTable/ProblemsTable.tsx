@@ -55,12 +55,28 @@ const ProblemsTable: React.FC<ProblemsTableProps> = ({
                 <BsCheckCircle width={"18"} fontSize={"18"} />
               </th>
               <td className="px-6 py-4">
-                <Link
+                {problem.link ? (
+                  <Link
+                    className="hover:text-blue-600 cursor-pointer"
+                    href={problem.link}
+                    target="_blank"
+                  >
+                    {problem.title}
+                  </Link>
+                ) : (
+                  <Link
+                    href={`/problems/${problem.id}`}
+                    className="hover:text-blue-500 cursor-pointer"
+                  >
+                    {problem.title}
+                  </Link>
+                )}
+                {/* <Link
                   href={`/problems/${problem.id}`}
                   className="hover:text-blue-500 cursor-pointer"
                 >
                   {problem.title}
-                </Link>
+                </Link> */}
               </td>
               <td className={`px-6 py-4 ${difficultyColor}`}>
                 {problem.difficulty}
