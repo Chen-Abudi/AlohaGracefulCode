@@ -34,18 +34,18 @@ const Signup: React.FC<SignupProps> = () => {
   const handleRegister = async (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
     if (!inputs.email || !inputs.password || !inputs.displayYourName)
-      return alert("Please fill all input fields");
-    // return toast.warn("Please fill all input fields", {
-    //   position: "top-center",
-    //   autoClose: 5000,
-    //   hideProgressBar: false,
-    //   closeOnClick: true,
-    //   pauseOnHover: true,
-    //   draggable: true,
-    //   progress: undefined,
-    //   theme: "colored",
-    //   transition: Bounce,
-    // });
+      // return alert("Please fill all input fields");
+      return toast.warn("Please fill all input fields", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        transition: Bounce,
+      });
 
     try {
       toast.loading("Creating your user account...", {
@@ -73,37 +73,38 @@ const Signup: React.FC<SignupProps> = () => {
 
       router.push("/");
     } catch (error: any) {
-      toast.error(error.message, {
-        position: "top-center",
-      });
-
       // toast.error(error.message, {
       //   position: "top-center",
-      //   autoClose: 5000,
-      //   hideProgressBar: false,
-      //   closeOnClick: true,
-      //   pauseOnHover: true,
-      //   draggable: true,
-      //   progress: undefined,
-      //   theme: "dark",
       // });
+
+      toast.error(error.message, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
     } finally {
       toast.dismiss("loadingToast");
     }
   };
 
   useEffect(() => {
-    if (error) alert(error.message);
-    // toast.error(error.message, {
-    //   position: "top-center",
-    //   autoClose: 5000,
-    //   hideProgressBar: false,
-    //   closeOnClick: true,
-    //   pauseOnHover: true,
-    //   draggable: true,
-    //   progress: undefined,
-    //   theme: "dark",
-    // });
+    if (error)
+      // alert(error.message);
+      toast.error(error.message, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
   }, [error]);
 
   return (
