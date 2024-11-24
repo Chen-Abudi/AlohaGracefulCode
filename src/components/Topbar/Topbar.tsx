@@ -29,7 +29,7 @@ const Topbar: React.FC<TopbarProps> = ({ problemPage }) => {
         }`}
       >
         <Link href="/" className="absolute top-[-20px] left-[-58px] w-full">
-          <Image src={Logo} alt="Logo" width={290} height={290} priority />
+          <Image className="custom-image" src={Logo} alt="Logo" priority />
         </Link>
 
         {problemPage && (
