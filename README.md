@@ -62,6 +62,8 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
   - For more info on **CodeMirror**, Click [**&#128073;&#127997;HERE**](https://codemirror.net/)
   - For the Npm package, Click [**&#128073;&#127997;HERE**](https://www.npmjs.com/package/codemirror)
   - For **CodeMirror for React** [**&#128073;&#127997;HERE**](https://uiwjs.github.io/react-codemirror/)
+- `Firestore Transactions`:
+  - **Transaction** is a set of read and write operations on one or more documents.
 
 ---
 
@@ -149,7 +151,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 1. **Educational Resources:**
 
-- [ ] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
+- [x] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
 
 <!-- 3. **Internationalization:**
 
