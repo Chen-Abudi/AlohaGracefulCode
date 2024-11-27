@@ -43,9 +43,6 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
     }
 
     if (updating) return;
-    // If already liked, if already disliked, or neither
-    // Transactions
-
     setUpdating(true);
 
     await runTransaction(firestore, async (transaction) => {
@@ -56,7 +53,8 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
 
       if (userDoc.exists() && problemDoc.exists()) {
         if (liked) {
-          // Remove problem id from likedProblems on user document, decrement likes on problem document
+          // Remove problem id from likedProblems on user document,
+          // decrement likes on problem document
           transaction.update(userRef, {
             likedProblems: userDoc
               .data()
