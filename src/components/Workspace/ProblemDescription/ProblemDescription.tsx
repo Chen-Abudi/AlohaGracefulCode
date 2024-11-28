@@ -27,6 +27,15 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
     useGetUsersDataOnProblem(problem.id);
   const [updating, setUpdating] = useState(false);
 
+  const retrieveUserAndProblemData = async (transaction: any) => {
+    const userRef = doc(firestore, "users", user!.uid);
+    const problemRef = doc(firestore, "problems", problem.id);
+    const userDoc = await transaction.get(userRef);
+    const problemDoc = await transaction.get(problemRef);
+
+    return { userDoc, problemDoc, userRef, problemRef };
+  };
+
   const handleLikeClick = async () => {
     if (!user) {
       toast.error("You must be logged in to like a problem", {
@@ -46,10 +55,13 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
     setUpdating(true);
 
     await runTransaction(firestore, async (transaction) => {
-      const userRef = doc(firestore, "users", user.uid);
-      const problemRef = doc(firestore, "problems", problem.id);
-      const userDoc = await transaction.get(userRef);
-      const problemDoc = await transaction.get(problemRef);
+      // const userRef = doc(firestore, "users", user.uid);
+      // const problemRef = doc(firestore, "problems", problem.id);
+      // const userDoc = await transaction.get(userRef);
+      // const problemDoc = await transaction.get(problemRef);
+
+      const { userDoc, problemDoc, userRef, problemRef } =
+        await retrieveUserAndProblemData(transaction);
 
       if (userDoc.exists() && problemDoc.exists()) {
         if (liked) {
@@ -107,6 +119,85 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
     setUpdating(false);
   };
 
+  const handleDislikeClick = async () => {
+    if (!user) {
+      toast.error("You must be logged in to like a problem", {
+        position: "top-left",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+      return;
+    }
+
+    if (updating) return;
+    setUpdating(true);
+
+    await runTransaction(firestore, async (transaction) => {
+      const { userDoc, problemDoc, userRef, problemRef } =
+        await retrieveUserAndProblemData(transaction);
+
+      if (userDoc.exists() && problemDoc.exists()) {
+        // Already disliked a problem, already liked, or not disliked or liked
+        if (disliked) {
+          transaction.update(userRef, {
+            dislikedProblems: userDoc
+              .data()
+              .dislikedProblems.filter((id: string) => id !== problem.id),
+          });
+
+          transaction.update(problemRef, {
+            dislikes: problemDoc.data().dislikes - 1,
+          });
+
+          setCurrentProblem((prev) =>
+            prev ? { ...prev, dislikes: prev.dislikes - 1 } : null
+          );
+          setData((prev) => ({ ...prev, disliked: false }));
+        } else if (liked) {
+          transaction.update(userRef, {
+            dislikedProblems: [...userDoc.data().dislikedProblems, problem.id],
+            likedProblems: userDoc
+              .data()
+              .likedProblems.filter((id: string) => id !== problem.id),
+          });
+
+          transaction.update(problemRef, {
+            dislikes: problemDoc.data().dislikes + 1,
+            likes: problemDoc.data().likes - 1,
+          });
+
+          setCurrentProblem((prev) =>
+            prev
+              ? { ...prev, dislikes: prev.dislikes + 1, likes: prev.likes - 1 }
+              : null
+          );
+
+          setData((prev) => ({ ...prev, disliked: true, liked: false }));
+        } else {
+          transaction.update(userRef, {
+            dislikedProblems: [...userDoc.data().dislikedProblems, problem.id],
+          });
+
+          transaction.update(problemRef, {
+            dislikes: problemDoc.data().dislikes + 1,
+          });
+
+          setCurrentProblem((prev) =>
+            prev ? { ...prev, dislikes: prev.dislikes + 1 } : null
+          );
+          setData((prev) => ({ ...prev, disliked: true }));
+        }
+      }
+    });
+
+    setUpdating(false);
+  };
+
   return (
     <div className="bg-dark-layer-1">
       {/* Tab */}
@@ -157,8 +248,16 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
                 <div
                   className="flex items-center cursor-pointer hover:bg-dark-fill-3 space-x-1 rounded p-[3px] ml-4 text-lg 
                 transition-colors duration-200 text-green-s text-dark-gray-6"
+                  onClick={handleDislikeClick}
                 >
-                  <AiFillDislike />
+                  {disliked && !updating && (
+                    <AiFillDislike className="text-dark-pink" />
+                  )}
+                  {!disliked && !updating && <AiFillDislike />}
+                  {updating && (
+                    <AiOutlineLoading3Quarters className="animate-spin" />
+                  )}
+                  {/* <AiFillDislike /> */}
                   <span className="text-xs">{currentProblem.dislikes}</span>
                 </div>
                 <div
