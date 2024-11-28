@@ -55,11 +55,6 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
     setUpdating(true);
 
     await runTransaction(firestore, async (transaction) => {
-      // const userRef = doc(firestore, "users", user.uid);
-      // const problemRef = doc(firestore, "problems", problem.id);
-      // const userDoc = await transaction.get(userRef);
-      // const problemDoc = await transaction.get(problemRef);
-
       const { userDoc, problemDoc, userRef, problemRef } =
         await retrieveUserAndProblemData(transaction);
 
@@ -242,7 +237,6 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
                   {updating && (
                     <AiOutlineLoading3Quarters className="animate-spin" />
                   )}
-                  {/* <AiFillLike /> */}
                   <span className="text-xs">{currentProblem.likes}</span>
                 </div>
                 <div
@@ -257,7 +251,6 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
                   {updating && (
                     <AiOutlineLoading3Quarters className="animate-spin" />
                   )}
-                  {/* <AiFillDislike /> */}
                   <span className="text-xs">{currentProblem.dislikes}</span>
                 </div>
                 <div
