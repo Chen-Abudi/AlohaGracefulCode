@@ -36,6 +36,84 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
     return { userDoc, problemDoc, userRef, problemRef };
   };
 
+  // const handleLikeClick = async () => {
+  //   if (!user) {
+  //     toast.error("You must be logged in to like a problem", {
+  //       position: "top-left",
+  //       autoClose: 5000,
+  //       hideProgressBar: false,
+  //       closeOnClick: true,
+  //       pauseOnHover: true,
+  //       draggable: true,
+  //       progress: undefined,
+  //       theme: "dark",
+  //     });
+  //     return;
+  //   }
+
+  //   if (updating) return;
+  //   setUpdating(true);
+
+  //   await runTransaction(firestore, async (transaction) => {
+  //     const { userDoc, problemDoc, userRef, problemRef } =
+  //       await retrieveUserAndProblemData(transaction);
+
+  //     if (userDoc.exists() && problemDoc.exists()) {
+  //       if (liked) {
+  //         // Remove problem id from likedProblems on user document,
+  //         // decrement likes on problem document
+  //         transaction.update(userRef, {
+  //           likedProblems: userDoc
+  //             .data()
+  //             .likedProblems.filter((id: string) => id !== problem.id),
+  //         });
+  //         transaction.update(problemRef, {
+  //           likes: problemDoc.data().likes - 1,
+  //         });
+
+  //         setCurrentProblem((prev) =>
+  //           prev ? { ...prev, like: prev.likes - 1 } : null
+  //         );
+  //         setData((prev) => ({ ...prev, liked: false }));
+  //       } else if (disliked) {
+  //         transaction.update(userRef, {
+  //           likedProblems: [...userDoc.data().likedProblems, problem.id],
+  //           dislikedProblems: userDoc
+  //             .data()
+  //             .dislikedProblems.filter((id: string) => id !== problem.id),
+  //         });
+  //         transaction.update(problemRef, {
+  //           likes: problemDoc.data().likes + 1,
+  //           dislikes: problemDoc.data().dislikes - 1,
+  //         });
+
+  //         setCurrentProblem((prev) =>
+  //           prev
+  //             ? {
+  //                 ...prev,
+  //                 likes: prev.likes + 1,
+  //                 dislikes: prev.dislikes - 1,
+  //               }
+  //             : null
+  //         );
+  //         setData((prev) => ({ ...prev, liked: true, disliked: false }));
+  //       } else {
+  //         transaction.update(userRef, {
+  //           likedProblems: [...userDoc.data().likedProblems, problem.id],
+  //         });
+  //         transaction.update(problemRef, {
+  //           likes: problemDoc.data().likes + 1,
+  //         });
+  //         setCurrentProblem((prev) =>
+  //           prev ? { ...prev, likes: prev.likes + 1 } : null
+  //         );
+  //         setData((prev) => ({ ...prev, liked: true }));
+  //       }
+  //     }
+  //   });
+  //   setUpdating(false);
+  // };
+
   const handleLikeClick = async () => {
     if (!user) {
       toast.error("You must be logged in to like a problem", {
@@ -55,24 +133,24 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
     setUpdating(true);
 
     await runTransaction(firestore, async (transaction) => {
-      const { userDoc, problemDoc, userRef, problemRef } =
+      const { problemDoc, userDoc, problemRef, userRef } =
         await retrieveUserAndProblemData(transaction);
 
       if (userDoc.exists() && problemDoc.exists()) {
         if (liked) {
           // Remove problem id from likedProblems on user document,
-          // decrement likes on problem document
+          // Decrement likes on problem document
           transaction.update(userRef, {
             likedProblems: userDoc
               .data()
-              .likedProblems.filter((id: string) => id !== problemDoc.id),
+              .likedProblems.filter((id: string) => id !== problem.id),
           });
           transaction.update(problemRef, {
             likes: problemDoc.data().likes - 1,
           });
 
           setCurrentProblem((prev) =>
-            prev ? { ...prev, like: prev.likes - 1 } : null
+            prev ? { ...prev, likes: prev.likes - 1 } : null
           );
           setData((prev) => ({ ...prev, liked: false }));
         } else if (disliked) {
@@ -89,11 +167,7 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
 
           setCurrentProblem((prev) =>
             prev
-              ? {
-                  ...prev,
-                  likes: prev.likes + 1,
-                  dislikes: prev.dislikes - 1,
-                }
+              ? { ...prev, likes: prev.likes + 1, dislikes: prev.dislikes - 1 }
               : null
           );
           setData((prev) => ({ ...prev, liked: true, disliked: false }));
