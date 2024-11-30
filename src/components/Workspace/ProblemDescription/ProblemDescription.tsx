@@ -307,7 +307,6 @@ const ProblemDescription: React.FC<ProblemDescriptionProps> = ({ problem }) => {
                   {updating && (
                     <AiOutlineLoading3Quarters className="animate-spin" />
                   )}
-                  {/* <TiStarOutline /> */}
                 </div>
               </div>
             )}
