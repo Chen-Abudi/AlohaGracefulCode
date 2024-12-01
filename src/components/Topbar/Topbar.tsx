@@ -26,7 +26,6 @@ const Topbar: React.FC<TopbarProps> = ({ problemPage }) => {
   const router = useRouter();
 
   const handleProblemChange = (isForward: boolean) => {
-    // console.log(router.query);
     const { order } = problems[router.query.pid as string] as Problem;
     const direction = isForward ? 1 : -1;
 
@@ -34,7 +33,7 @@ const Topbar: React.FC<TopbarProps> = ({ problemPage }) => {
     const nextProblemKey = Object.keys(problems).find(
       (key) => problems[key].order === nextProblemOrder
     );
-    // console.log(nextProblemKey);
+
     if (isForward && !nextProblemKey) {
       const firstProblemKey = Object.keys(problems).find(
         (key) => problems[key].order === 1
