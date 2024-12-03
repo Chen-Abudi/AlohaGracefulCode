@@ -64,6 +64,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
   - For **CodeMirror for React** [**&#128073;&#127997;HERE**](https://uiwjs.github.io/react-codemirror/)
 - `Firestore Transactions`:
   - **Transaction** is a set of read and write operations on one or more documents.
+- **React Confetti**
 
 ---
 
