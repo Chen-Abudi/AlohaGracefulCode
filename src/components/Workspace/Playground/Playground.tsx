@@ -81,29 +81,6 @@ const Playground: React.FC<PlaygroundProps> = ({
           setSolved(true);
         }
       }
-
-      // if (success) {
-      //   toast.success("Congrats, all test cases passed!", {
-      //     position: "top-center",
-      //     autoClose: 4000,
-      //     hideProgressBar: false,
-      //     closeOnClick: true,
-      //     pauseOnHover: true,
-      //     draggable: true,
-      //     progress: undefined,
-      //     theme: "colored",
-      //   });
-      //   setSuccess(true);
-      //   setTimeout(() => {
-      //     setSuccess(false);
-      //   }, 4000);
-
-      //   const userRef = doc(firestore, "users", user.uid);
-      //   await updateDoc(userRef, {
-      //     solvedProblems: arrayUnion(pid),
-      //   });
-      //   setSolved(true);
-      // }
     } catch (error: any) {
       console.log(error.message);
       if (
@@ -146,7 +123,6 @@ const Playground: React.FC<PlaygroundProps> = ({
   }, [pid, user, problem.starterCode]);
 
   const onChange = (value: string) => {
-    // console.log("value:", value);
     setUserCode(value);
     localStorage.setItem(`code-${pid}`, JSON.stringify(value));
   };
