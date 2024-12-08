@@ -11,8 +11,6 @@ type ProblemPageProps = {
 };
 
 const ProblemPage: React.FC<ProblemPageProps> = ({ problem }) => {
-  // console.log(problem);
-
   const hasMounted = useHasMounted();
 
   if (!hasMounted) return null;

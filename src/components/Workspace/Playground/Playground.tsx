@@ -35,7 +35,6 @@ const Playground: React.FC<PlaygroundProps> = ({
   } = useRouter();
 
   const handleSubmit = async () => {
-    // alert("submitted");
     if (!user) {
       toast.error("To submit your code, please login", {
         position: "top-center",
