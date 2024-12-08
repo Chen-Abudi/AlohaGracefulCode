@@ -15,7 +15,7 @@
     "@uiw/react-codemirror": "^4.23.6",
     "assert": "^2.1.0",
     "firebase": "^10.7.1",
-    "next": "^14.0.3",
+    "next": "^15.0.4",
     "react": "^18",
     "react-confetti": "^6.1.0",
     "react-dom": "^18",
