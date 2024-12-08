@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Split from "react-split";
 import CodeMirror from "@uiw/react-codemirror";
 
@@ -107,9 +107,19 @@ const Playground: React.FC<PlaygroundProps> = ({
     }
   };
 
+  useEffect(() => {
+    const code = localStorage.getItem(`code-${pid}`);
+    if (user) {
+      setUserCode(code ? JSON.parse(code) : problem.starterCode);
+    } else {
+      setUserCode(problem.starterCode);
+    }
+  }, [pid, user, problem.starterCode]);
+
   const onChange = (value: string) => {
     // console.log("value:", value);
     setUserCode(value);
+    localStorage.setItem(`code-${pid}`, JSON.stringify(value));
   };
 
   return (
@@ -124,7 +134,7 @@ const Playground: React.FC<PlaygroundProps> = ({
       >
         <div className="overflow-auto w-full">
           <CodeMirror
-            value={problem.starterCode}
+            value={userCode}
             theme={vscodeDark}
             onChange={onChange}
             style={{ fontSize: 16 }}
