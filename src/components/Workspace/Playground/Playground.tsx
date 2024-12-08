@@ -27,7 +27,7 @@ const Playground: React.FC<PlaygroundProps> = ({
   setSolved,
 }) => {
   const [activeTestCaseId, setActiveTestCaseId] = useState<number>(0);
-  const [userCode, setUserCode] = useState<string>(problem.starterCode);
+  let [userCode, setUserCode] = useState<string>(problem.starterCode);
 
   const [user] = useAuthState(auth);
   const {
@@ -50,31 +50,60 @@ const Playground: React.FC<PlaygroundProps> = ({
       return;
     }
     try {
+      userCode = userCode.slice(userCode.indexOf(problem.starterFunctionName));
+
       const cb = new Function(`return ${userCode}`)();
-      const success = problems[pid as string].handlerFunction(cb);
+      const handler = problems[pid as string].handlerFunction;
 
-      if (success) {
-        toast.success("Congrats, all test cases passed!", {
-          position: "top-center",
-          autoClose: 4000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "colored",
-        });
-        setSuccess(true);
-        setTimeout(() => {
-          setSuccess(false);
-        }, 4000);
+      if (typeof handler === "function") {
+        const success = handler(cb);
 
-        const userRef = doc(firestore, "users", user.uid);
-        await updateDoc(userRef, {
-          solvedProblems: arrayUnion(pid),
-        });
-        setSolved(true);
+        if (success) {
+          toast.success("Congrats, all test cases passed!", {
+            position: "top-center",
+            autoClose: 4000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
+          setSuccess(true);
+          setTimeout(() => {
+            setSuccess(false);
+          }, 4000);
+
+          const userRef = doc(firestore, "users", user.uid);
+          await updateDoc(userRef, {
+            solvedProblems: arrayUnion(pid),
+          });
+          setSolved(true);
+        }
       }
+
+      // if (success) {
+      //   toast.success("Congrats, all test cases passed!", {
+      //     position: "top-center",
+      //     autoClose: 4000,
+      //     hideProgressBar: false,
+      //     closeOnClick: true,
+      //     pauseOnHover: true,
+      //     draggable: true,
+      //     progress: undefined,
+      //     theme: "colored",
+      //   });
+      //   setSuccess(true);
+      //   setTimeout(() => {
+      //     setSuccess(false);
+      //   }, 4000);
+
+      //   const userRef = doc(firestore, "users", user.uid);
+      //   await updateDoc(userRef, {
+      //     solvedProblems: arrayUnion(pid),
+      //   });
+      //   setSolved(true);
+      // }
     } catch (error: any) {
       console.log(error.message);
       if (
