@@ -94,7 +94,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - [x] Create user profiles to track individual progress and achievements.
 - [x] Create user accounts in DB.
-- [ ] Implement a customizable dashboard for a personalized user experience.
+<!-- - [ ] Implement a customizable dashboard for a personalized user experience. -->
 
 ---
 
