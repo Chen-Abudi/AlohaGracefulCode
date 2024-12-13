@@ -66,7 +66,6 @@ const PreferenceNavigation: React.FC<PreferenceNavigationProps> = () => {
             ) : (
               <AiOutlineFullscreenExit />
             )}
-            {/* <AiOutlineFullscreen /> */}
           </div>
           <div className="preferenceBtn-tooltip">Full Screen</div>
         </button>
