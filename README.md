@@ -177,23 +177,6 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 ---
 
-<!-- ### Phase 5: 📈 Expansion
-
-1. **New Problem Sets:**
-
-- [ ] Continuously add new coding challenges to keep the problem database fresh and challenging.
-
-1. **Educational Resources:**
-
-- [x] Integrate educational content such as tutorials, articles, and video explanations for select challenges. -->
-
-<!-- 3. **Internationalization:**
-
-- [ ] Translate the platform into multiple languages to broaden its accessibility.
-- [ ] Explore cultural adaptations for a more inclusive experience. -->
-
----
-
 <details>
 <summary><h2>🫶🏽 Join the Journey:</h2></summary>
 
