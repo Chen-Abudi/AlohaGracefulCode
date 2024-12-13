@@ -14,10 +14,9 @@
   - [🛠 Techniques \& Tools:](#-techniques--tools)
   - [🎯 Roadmap](#-roadmap)
     - [Phase 1: 🏗️ Foundation](#phase-1-️-foundation)
-    - [Phase 2: 👥 Collaboration](#phase-2--collaboration)
-    - [Phase 3: ⭐ Gamification](#phase-3--gamification)
-    - [Phase 4: 📊 Optimization](#phase-4--optimization)
-    - [Phase 5: 📈 Expansion](#phase-5--expansion)
+    - [Phase 2: Enhancements](#phase-2-enhancements)
+    - [Phase 3: ⭐ Expansion](#phase-3--expansion)
+    - [Phase 4: 📊 Optimization and Maintenance](#phase-4--optimization-and-maintenance)
     - [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
 
 ## 🔎 Intro:
@@ -78,73 +77,107 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - [x] Implement user auth modals functionality.
 - [x] Implement user authentication and account management.
 
-2. **Problem Challenges:**
+2. **User Interface Development:**
+
+- [x] Create the main navigation components, including the preference navigation.
+- [x] Develop a responsive layout for the application using CSS frameworks.
+
+3. **Problem Challenges:**
 
 - [x] Populate the platform with a diverse set of coding challenges.
 - [x] Categorize problems based on difficulty, topics, and tags.
 
-3. **Interactive Coding Environment:**
+4. **Interactive Coding Environment:**
 
 - [x] Develop an intuitive coding environment for users to solve problems.
 - [x] Create an interactive workspace with playground and code editor features.
-- [x] Fetched the problems data dynamically.
-<!-- - [ ] Include features like syntax highlighting, code completion, and real-time testing. -->
+- [x] Fetch the problems data dynamically.
 
-1. **User Profiles:**
+5. **User Profiles:**
 
 - [x] Create user profiles to track individual progress and achievements.
-- [x] Create user accounts in DB.
-<!-- - [ ] Implement a customizable dashboard for a personalized user experience. -->
+- [x] Create user accounts in the database.
 
 ---
 
-### Phase 2: 👥 Collaboration
+### Phase 2: Enhancements
 
-1. **Community Features:**
+1. **Full-Screen Mode:**
 
-- [ ] Introduce discussion forums for each problem to encourage collaboration.
-- [ ] Implement a comment and voting system for solutions.
+- [x] Enhance the coding environment by implementing a full-screen mode feature.
+- [x] Ensure that the full-screen functionality works seamlessly across different browsers.
 
-2. **Solution Explorer:**
+2. **Settings Management:**
 
-- [ ] Develop a platform to explore and compare different solutions to problems.
-- [ ] Enable users to submit multiple solutions and discuss trade-offs.
+- [x] Implement a settings modal to allow users to customize their experience such as theme selection, notification preferences, etc.
+- [x] Integrate the settings functionality with the preference navigation.
 
-3. **Notifications:**
+3. **Problem Submission and Feedback:**
 
-- [ ] Implement a notification system to keep users informed about discussions on their solutions and other relevant updates.
+- [x] Allow users to submit their solutions to the coding challenges.
+- [x] Implement a feedback mechanism for users to receive hints or solutions.
 
----
+4. **Community Features:**
 
-### Phase 3: ⭐ Gamification
-
-1. **Leaderboards:**
-
-- [ ] Create leaderboards to highlight top performers based on various criteria.
-- [ ] Introduce achievements and badges to gamify the learning experience.
-
-2. **Competitions:**
-
-- [ ] Design and launch periodic coding competitions to engage the community.
-- [ ] Include real-time scoring and a dedicated leaderboard for each competition.
+- [ ] Introduce a discussion forum for users to collaborate and share knowledge.
+- [ ] Implement a rating system for the challenges and the user contributions.
 
 ---
 
-### Phase 4: 📊 Optimization
+### Phase 3: ⭐ Expansion
+
+1. **Additional Learning Resources:**
+
+- [x] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
+- [ ] Provide links to external resources for further learning.
+
+2. **Advanced Problem Features:**
+
+- [ ] Implement hints and solutions for coding challenges.
+- [ ] Create a leaderboard to showcase top performers on the platform.
+
+3. **Mobile Responsiveness:**
+
+- [ ] Ensure the platform is full responsive and accessible on mobile devices.
+- [ ] Optimize the user interface for smaller screens.
+
+4. **Integration with Third-Party Tools:**
+
+- [ ] Allow integration with popular coding tools and platforms (e.g., GitHub, CodePen).
+- [ ] Implement APIs for external data fetching and user interaction.
+
+5. **Localization:**
+
+- [ ] Support multiple languages to cater to a global audience.
+- [ ] Implement language selection options in user settings.
+
+---
+
+### Phase 4: 📊 Optimization and Maintenance
 
 1. **Performance Optimization:**
 
-- [ ] Conduct thorough testing and optimize the platform for performance.
-- [ ] Address any scalability issues to ensure a smooth user experience.
+- [ ] Conduct performance audits to identify and fix bottlenecks.
+- [ ] Optimize database queries and server response times.
 
-2. **User Feedback Implementation:**
+2. **User Feedback and Iteration:**
 
-- [ ] Collect user feedback through surveys and community discussions.
-- [ ] Implement improvements and features based on user suggestions.
+- [ ] Gather user feedback through surveys and usability testing.
+- [ ] Iterate on features based on user input and analytics.
+
+3. **Regular Updates:**
+
+- [ ] Schedule regular updates to introduce new challenges and features.
+- [ ] Maintain documentation and user guides for new functionalities.
+
+4. **Security Enhancements:**
+
+- [ ] Implement security best practices to protect user data.
+- [ ] Regularly update dependencies and monitor for vulnerabilities.
 
 ---
 
-### Phase 5: 📈 Expansion
+<!-- ### Phase 5: 📈 Expansion
 
 1. **New Problem Sets:**
 
@@ -152,7 +185,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 1. **Educational Resources:**
 
-- [x] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
+- [x] Integrate educational content such as tutorials, articles, and video explanations for select challenges. -->
 
 <!-- 3. **Internationalization:**
 
