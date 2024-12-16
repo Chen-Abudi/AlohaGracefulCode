@@ -21,6 +21,12 @@ type PlaygroundProps = {
   setSolved: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
+export interface ISettings {
+  fontSize: string;
+  settingsModalIsOpen: boolean;
+  dropdownIsOpen: boolean;
+}
+
 const Playground: React.FC<PlaygroundProps> = ({
   problem,
   setSuccess,
@@ -28,6 +34,12 @@ const Playground: React.FC<PlaygroundProps> = ({
 }) => {
   const [activeTestCaseId, setActiveTestCaseId] = useState<number>(0);
   let [userCode, setUserCode] = useState<string>(problem.starterCode);
+
+  const [settings, setSettings] = useState<ISettings>({
+    fontSize: "16px",
+    settingsModalIsOpen: false,
+    dropdownIsOpen: false,
+  });
 
   const [user] = useAuthState(auth);
   const {
@@ -128,7 +140,7 @@ const Playground: React.FC<PlaygroundProps> = ({
 
   return (
     <div className="relative flex flex-col bg-dark-layer-1 overflow-x-hidden">
-      <PreferenceNavigation />
+      <PreferenceNavigation settings={settings} setSettings={setSettings} />
 
       <Split
         className="h-[calc(100vh-94px)]"
@@ -141,7 +153,7 @@ const Playground: React.FC<PlaygroundProps> = ({
             value={userCode}
             theme={vscodeDark}
             onChange={onChange}
-            style={{ fontSize: 16 }}
+            style={{ fontSize: settings.fontSize }}
             extensions={[javascript()]}
           />
         </div>
