@@ -4,10 +4,18 @@ import {
   AiOutlineFullscreenExit,
   AiOutlineSetting,
 } from "react-icons/ai";
+import { ISettings } from "../Playground";
+import SettingsModal from "@/components/Modals/SettingsModal";
 
-type PreferenceNavigationProps = {};
+type PreferenceNavigationProps = {
+  settings: ISettings;
+  setSettings: React.Dispatch<React.SetStateAction<ISettings>>;
+};
 
-const PreferenceNavigation: React.FC<PreferenceNavigationProps> = () => {
+const PreferenceNavigation: React.FC<PreferenceNavigationProps> = (
+  setSettings,
+  settings
+) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
 
   const handleFullScreen = () => {
@@ -70,6 +78,8 @@ const PreferenceNavigation: React.FC<PreferenceNavigationProps> = () => {
           <div className="preferenceBtn-tooltip">Full Screen</div>
         </button>
       </div>
+
+      {settings.settingsModalIsOpen && <SettingsModal />}
     </div>
   );
 };
