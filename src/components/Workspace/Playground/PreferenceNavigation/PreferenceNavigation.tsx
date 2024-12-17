@@ -12,10 +12,10 @@ type PreferenceNavigationProps = {
   setSettings: React.Dispatch<React.SetStateAction<ISettings>>;
 };
 
-const PreferenceNavigation: React.FC<PreferenceNavigationProps> = (
+const PreferenceNavigation: React.FC<PreferenceNavigationProps> = ({
   setSettings,
-  settings
-) => {
+  settings,
+}) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
 
   const handleFullScreen = () => {
@@ -60,7 +60,12 @@ const PreferenceNavigation: React.FC<PreferenceNavigationProps> = (
       </div>
 
       <div className="flex items-center m-2">
-        <button className="preferenceBtn group">
+        <button
+          className="preferenceBtn group"
+          onClick={() =>
+            setSettings({ ...settings, settingsModalIsOpen: true })
+          }
+        >
           <div className="w-4 h-4 text-lg font-bold text-dark-gray-6">
             <AiOutlineSetting />
           </div>
@@ -79,7 +84,9 @@ const PreferenceNavigation: React.FC<PreferenceNavigationProps> = (
         </button>
       </div>
 
-      {settings.settingsModalIsOpen && <SettingsModal />}
+      {settings.settingsModalIsOpen && (
+        <SettingsModal settings={settings} setSettings={setSettings} />
+      )}
     </div>
   );
 };
