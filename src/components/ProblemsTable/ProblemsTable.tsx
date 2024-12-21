@@ -65,7 +65,6 @@ const ProblemsTable: React.FC<ProblemsTableProps> = ({
                 {solvedProblems.includes(problem.id) && (
                   <BsCheckCircle width={"18"} fontSize={"18"} />
                 )}
-                {/* <BsCheckCircle width={"18"} fontSize={"18"} /> */}
               </th>
               <td className="px-6 py-4">
                 {problem.link ? (
@@ -84,12 +83,6 @@ const ProblemsTable: React.FC<ProblemsTableProps> = ({
                     {problem.title}
                   </Link>
                 )}
-                {/* <Link
-                  href={`/problems/${problem.id}`}
-                  className="hover:text-blue-500 cursor-pointer"
-                >
-                  {problem.title}
-                </Link> */}
               </td>
               <td className={`px-6 py-4 ${difficultyColor}`}>
                 {problem.difficulty}
@@ -152,7 +145,6 @@ function useGetProblems(
 
   useEffect(() => {
     const getProblems = async () => {
-      // Fetch the data logic
       setLoadingProblems(true);
       const q = query(
         collection(firestore, "problems"),
