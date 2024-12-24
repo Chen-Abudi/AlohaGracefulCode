@@ -16,6 +16,7 @@
     - [Phase 1: 🏗️ Foundation](#phase-1-️-foundation)
     - [Phase 2: Enhancements](#phase-2-enhancements)
     - [Phase 3: ⭐ Expansion](#phase-3--expansion)
+    - [Phase 4: 📊 Optimization and Maintenance](#phase-4--optimization-and-maintenance)
   - [✨ How to Get Started](#-how-to-get-started)
     - [1. `Familiarize yourself with the project`](#1-familiarize-yourself-with-the-project)
     - [2. `Set Up Your Development Environment`](#2-set-up-your-development-environment)
@@ -135,7 +136,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 1. **Additional Learning Resources:**
 
 - [x] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
-<!-- - [ ] Provide links to external resources for further learning.
+- [ ] Provide links to external resources for further learning.
 
 2. **Advanced Problem Features:**
 
@@ -179,7 +180,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 4. **Security Enhancements:**
 
 - [ ] Implement security best practices to protect user data.
-- [ ] Regularly update dependencies and monitor for vulnerabilities. -->
+- [ ] Regularly update dependencies and monitor for vulnerabilities.
 
 ---
 
