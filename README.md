@@ -23,7 +23,7 @@
     - [4. `Identify Areas for Contribution`](#4-identify-areas-for-contribution)
     - [5. `Start Contributing`](#5-start-contributing)
     - [6. `Submit Your Contribution`](#6-submit-your-contribution)
-    - [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
+  - [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
 
 ## 🔎 Intro:
 
@@ -289,8 +289,8 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 ---
 
-<details>
-<summary><h2>🫶🏽 Join the Journey:</h2></summary>
+  <details>
+    <summary><h2>🫶🏽 Join the Journey:</h2></summary>
 
 **Aloha 🌺**
 
@@ -300,6 +300,6 @@ If you've found value in my work and would like to support me, consider buying m
 
 Mahalo 🌺🤙🏽
 
-### Show some Love at 👉🏽 [buymeacoffee ☕](https://buymeacoffee.com/graceabudi)
+## Show some Love at 👉🏽 [buymeacoffee ☕](https://buymeacoffee.com/graceabudi)
 
-</details>
+  </details>
