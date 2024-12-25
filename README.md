@@ -17,13 +17,15 @@
     - [Phase 2: Enhancements](#phase-2-enhancements)
     - [Phase 3: ⭐ Expansion](#phase-3--expansion)
     - [Phase 4: 📊 Optimization and Maintenance](#phase-4--optimization-and-maintenance)
-  - [✨ How to Get Started](#-how-to-get-started)
+- [✨ How to Get Started](#-how-to-get-started)
     - [1. `Familiarize yourself with the project`](#1-familiarize-yourself-with-the-project)
     - [2. `Set Up Your Development Environment`](#2-set-up-your-development-environment)
     - [3. `Understand the Codebase`](#3-understand-the-codebase)
     - [4. `Identify Areas for Contribution`](#4-identify-areas-for-contribution)
     - [5. `Start Contributing`](#5-start-contributing)
     - [6. `Submit Your Contribution`](#6-submit-your-contribution)
+    - [7. `Engage with the Community`](#7-engage-with-the-community)
+    - [8. `Stay Updated`](#8-stay-updated)
   - [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
 
 ## 🔎 Intro:
@@ -184,7 +186,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 ---
 
-## ✨ How to Get Started
+# ✨ How to Get Started
 
 ### 1. `Familiarize yourself with the project`
 
@@ -272,7 +274,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
   - Navigate to the repository on GitHub and create a pull request (PR) from your branch to the main branch.
   - Provide a detailed description of your changes and why they are beneficial.
 
-<!-- ### 7. `Engage with the Community`
+### 7. `Engage with the Community`
 
 - **Participate in Discussions:**
 
@@ -284,7 +286,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 ### 8. `Stay Updated`
 
 - **Follow Project Updates:**
-  - Keep an eye on the project for updates, new features, and community discussions. -->
+  - Keep an eye on the project for updates, new features, and community discussions.
 
 **_Thank you for your interest in contributing to AlohaGracefulCode! Your contributions make a difference! 🌺🤙🏽_**
 
