@@ -26,7 +26,7 @@
     - [6. `Submit Your Contribution`](#6-submit-your-contribution)
     - [7. `Engage with the Community`](#7-engage-with-the-community)
     - [8. `Stay Updated`](#8-stay-updated)
-  - [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
+- [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
 
 ## 🔎 Intro:
 
@@ -303,6 +303,6 @@ If you've found value in my work and would like to support me, consider buying m
 
 Mahalo 🌺🤙🏽
 
-## Show some Love at 👉🏽 [buymeacoffee ☕](https://buymeacoffee.com/graceabudi)
+# Show some Love at 👉🏽 [buymeacoffee ☕](https://buymeacoffee.com/graceabudi)
 
   </details>
