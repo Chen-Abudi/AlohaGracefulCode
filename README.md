@@ -12,12 +12,12 @@
   - [🔎 Intro:](#-intro)
   - [🧰 Tech Stack:](#-tech-stack)
   - [🛠 Techniques \& Tools:](#-techniques--tools)
-- [✨ Live Project:](#-live-project)
   - [🎯 Roadmap](#-roadmap)
     - [Phase 1: 🏗️ Foundation](#phase-1-️-foundation)
     - [Phase 2: Enhancements](#phase-2-enhancements)
     - [Phase 3: ⭐ Expansion](#phase-3--expansion)
     - [Phase 4: 📊 Optimization and Maintenance](#phase-4--optimization-and-maintenance)
+- [✨ Live Project:](#-live-project)
 - [✨ How to Get Started](#-how-to-get-started)
     - [1. `Familiarize yourself with the project`](#1-familiarize-yourself-with-the-project)
     - [2. `Set Up Your Development Environment`](#2-set-up-your-development-environment)
@@ -78,14 +78,6 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - `Firestore Transactions`:
   - **Transaction** is a set of read and write operations on one or more documents.
 - **React Confetti**
-
----
-
-# ✨ Live Project:
-
-- `Visit the live platform at` [&#128073;&#127997; **HERE !**](https://aloha-graceful-code.vercel.app/)
-
-**Enjoy! 🌺**
 
 ---
 
@@ -196,6 +188,14 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - [ ] Implement security best practices to protect user data.
 - [ ] Regularly update dependencies and monitor for vulnerabilities.
+
+---
+
+# ✨ Live Project:
+
+- `Visit the live platform at` [&#128073;&#127997; **HERE !**](https://aloha-graceful-code.vercel.app/)
+
+**Enjoy! 🌺**
 
 ---
 
