@@ -26,6 +26,7 @@
     - [6. `Submit Your Contribution`](#6-submit-your-contribution)
     - [7. `Engage with the Community`](#7-engage-with-the-community)
     - [8. `Stay Updated`](#8-stay-updated)
+- [✨ Live Project:](#-live-project)
 - [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
 
 ## 🔎 Intro:
@@ -289,6 +290,14 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
   - Keep an eye on the project for updates, new features, and community discussions.
 
 **_Thank you for your interest in contributing to AlohaGracefulCode! Your contributions make a difference! 🌺🤙🏽_**
+
+---
+
+# ✨ Live Project:
+
+- `Visit the live platform at` [&#128073;&#127997; **HERE !**](https://aloha-graceful-code.vercel.app/)
+
+**Enjoy! 🌺**
 
 ---
 
