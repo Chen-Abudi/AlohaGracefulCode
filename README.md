@@ -15,19 +15,16 @@
   - [🎯 Roadmap](#-roadmap)
     - [Phase 1: 🏗️ Foundation](#phase-1-️-foundation)
     - [Phase 2: Enhancements](#phase-2-enhancements)
-    - [Phase 3: ⭐ Expansion](#phase-3--expansion)
-    - [Phase 4: 📊 Optimization and Maintenance](#phase-4--optimization-and-maintenance)
 - [✨ Live Project:](#-live-project)
 - [✨ How to Get Started](#-how-to-get-started)
-    - [1. `Familiarize yourself with the project`](#1-familiarize-yourself-with-the-project)
-    - [2. `Set Up Your Development Environment`](#2-set-up-your-development-environment)
-    - [3. `Understand the Codebase`](#3-understand-the-codebase)
-    - [4. `Identify Areas for Contribution`](#4-identify-areas-for-contribution)
-    - [5. `Start Contributing`](#5-start-contributing)
-    - [6. `Submit Your Contribution`](#6-submit-your-contribution)
-    - [7. `Engage with the Community`](#7-engage-with-the-community)
-    - [8. `Stay Updated`](#8-stay-updated)
-- [Show some Love at 👉🏽 buymeacoffee ☕](#show-some-love-at--buymeacoffee-)
+  - [1. `Familiarize yourself with the project`](#1-familiarize-yourself-with-the-project)
+  - [2. `Set Up Your Development Environment`](#2-set-up-your-development-environment)
+  - [3. `Understand the Codebase`](#3-understand-the-codebase)
+  - [4. `Identify Areas for Contribution`](#4-identify-areas-for-contribution)
+  - [5. `Start Contributing`](#5-start-contributing)
+  - [6. `Submit Your Contribution`](#6-submit-your-contribution)
+  - [7. `Engage with the Community`](#7-engage-with-the-community)
+  - [8. `Stay Updated`](#8-stay-updated)
 
 ## 🔎 Intro:
 
@@ -130,64 +127,6 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - [x] Allow users to submit their solutions to the coding challenges.
 - [x] Implement a feedback mechanism for users to receive hints or solutions.
-
-4. **Community Features:**
-
-- [ ] Introduce a discussion forum for users to collaborate and share knowledge.
-- [ ] Implement a rating system for the challenges and the user contributions.
-
----
-
-### Phase 3: ⭐ Expansion
-
-1. **Additional Learning Resources:**
-
-- [x] Integrate educational content such as tutorials, articles, and video explanations for select challenges.
-- [ ] Provide links to external resources for further learning.
-
-2. **Advanced Problem Features:**
-
-- [ ] Implement hints and solutions for coding challenges.
-- [ ] Create a leaderboard to showcase top performers on the platform.
-
-3. **Mobile Responsiveness:**
-
-- [ ] Ensure the platform is full responsive and accessible on mobile devices.
-- [ ] Optimize the user interface for smaller screens.
-
-4. **Integration with Third-Party Tools:**
-
-- [ ] Allow integration with popular coding tools and platforms (e.g., GitHub, CodePen).
-- [ ] Implement APIs for external data fetching and user interaction.
-
-5. **Localization:**
-
-- [ ] Support multiple languages to cater to a global audience.
-- [ ] Implement language selection options in user settings.
-
----
-
-### Phase 4: 📊 Optimization and Maintenance
-
-1. **Performance Optimization:**
-
-- [ ] Conduct performance audits to identify and fix bottlenecks.
-- [ ] Optimize database queries and server response times.
-
-2. **User Feedback and Iteration:**
-
-- [ ] Gather user feedback through surveys and usability testing.
-- [ ] Iterate on features based on user input and analytics.
-
-3. **Regular Updates:**
-
-- [ ] Schedule regular updates to introduce new challenges and features.
-- [ ] Maintain documentation and user guides for new functionalities.
-
-4. **Security Enhancements:**
-
-- [ ] Implement security best practices to protect user data.
-- [ ] Regularly update dependencies and monitor for vulnerabilities.
 
 ---
 
@@ -302,20 +241,3 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
   - Keep an eye on the project for updates, new features, and community discussions.
 
 **_Thank you for your interest in contributing to AlohaGracefulCode! Your contributions make a difference! 🌺🤙🏽_**
-
----
-
-  <details>
-    <summary><h2>🫶🏽 Join the Journey:</h2></summary>
-
-**Aloha 🌺**
-
-**_Hope y'all doing well!_**
-
-If you've found value in my work and would like to support me, consider buying me a coffee! (Though, I'm not a coffee person but more like hot cocoa person lol 😄) Your support helps me continue creating and sharing content that I hope inspires and makes a difference in the digital world. Every contribution is greatly appreciated and fuels my passion to keep going. Thank you for being part of this journey!
-
-Mahalo 🌺🤙🏽
-
-# Show some Love at 👉🏽 [buymeacoffee ☕](https://buymeacoffee.com/graceabudi)
-
-  </details>
