@@ -17,14 +17,14 @@
     - [Phase 2: Enhancements](#phase-2-enhancements)
 - [✨ Live Project:](#-live-project)
 - [✨ Instructions on How to Get Started:](#-instructions-on-how-to-get-started)
-    - [1. `Familiarize yourself with the project`](#1-familiarize-yourself-with-the-project)
-    - [2. `Set Up Your Development Environment`](#2-set-up-your-development-environment)
-    - [3. `Understand the Codebase`](#3-understand-the-codebase)
-    - [4. `Identify Areas for Contribution`](#4-identify-areas-for-contribution)
-    - [5. `Start Contributing`](#5-start-contributing)
-    - [6. `Submit Your Contribution`](#6-submit-your-contribution)
-    - [7. `Engage with the Community`](#7-engage-with-the-community)
-    - [8. `Stay Updated`](#8-stay-updated)
+  - [1. `Familiarize yourself with the project`](#1-familiarize-yourself-with-the-project)
+  - [2. `Set Up Your Development Environment`](#2-set-up-your-development-environment)
+  - [3. `Understand the Codebase`](#3-understand-the-codebase)
+  - [4. `Identify Areas for Contribution`](#4-identify-areas-for-contribution)
+  - [5. `Start Contributing`](#5-start-contributing)
+  - [6. `Submit Your Contribution`](#6-submit-your-contribution)
+  - [7. `Engage with the Community`](#7-engage-with-the-community)
+  - [8. `Stay Updated`](#8-stay-updated)
 
 ## 🔎 Intro:
 
@@ -36,7 +36,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 - Next.js
 - React
-- React-Toastify:
+- `React-Toastify:`
   - Allows you to add notifications to your application with ease.
   - For more info on **React-Toastify**, Click [**&#128073;&#127997;HERE**](https://www.npmjs.com/package/react-toastify)
 - TypeScript
@@ -240,4 +240,4 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - **Follow Project Updates:**
   - Keep an eye on the project for updates, new features, and community discussions.
 
-**_Thank you for your interest in contributing to AlohaGracefulCode! Your contributions make a difference! 🌺🤙🏽_**
+**_Thank you for your interest in contributing to AlohaGracefulCode! Your contributions make a difference! Enjoy 🌺🤙🏽_**
