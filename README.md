@@ -132,7 +132,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 # ✨ Live Project:
 
-- `Visit the live platform at` [&#128073;&#127997; **HERE !**](https://aloha-graceful-code.vercel.app/)
+- `Visit the platform` [&#128073;&#127997; **HERE**](https://aloha-graceful-code.vercel.app/)
 
 **Enjoy! 🌺**
 
