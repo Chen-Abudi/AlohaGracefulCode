@@ -1,13 +1,24 @@
 # AlohaGracefulCode 💻 🖥️
 
-# Elevate Your Coding Experience with Grace and Aloha 🌺
+> Elevate Your Coding Experience with Grace and Aloha 🌺
 
 **Developed By Grace Chen Abudi** 👩🏽‍💻
+
+# ✨ Live Project:
+
+👇🏽 `Click demo live to visit the platform`
+
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://aloha-graceful-code.vercel.app/)
+[![GitHub stars](https://img.shields.io/github/stars/Chen-Abudi/AlohaGracefulCode)](https://github.com/Chen-Abudi/AlohaGracefulCode/stargazers)
+
+<!-- # ✨ Live Project:
+
+- `Visit the platform` [&#128073;&#127997; **HERE**](https://aloha-graceful-code.vercel.app/) -->
 
 ## 📣 Overview:
 
 - [AlohaGracefulCode 💻 🖥️](#alohagracefulcode--️)
-- [Elevate Your Coding Experience with Grace and Aloha 🌺](#elevate-your-coding-experience-with-grace-and-aloha-)
+- [✨ Live Project:](#-live-project)
   - [📣 Overview:](#-overview)
   - [🔎 Intro:](#-intro)
   - [🧰 Tech Stack:](#-tech-stack)
@@ -15,8 +26,11 @@
   - [🎯 Roadmap](#-roadmap)
     - [Phase 1: 🏗️ Foundation](#phase-1-️-foundation)
     - [Phase 2: Enhancements](#phase-2-enhancements)
-- [✨ Live Project:](#-live-project)
-- [✨ Instructions on How to Get Started:](#-instructions-on-how-to-get-started)
+  - [🔮 Coming Soon (Roadmap)](#-coming-soon-roadmap)
+    - [🏗️ Phase 3: Next-Level Innovation](#️-phase-3-next-level-innovation)
+    - [🌟 Phase 4: Community Growth](#-phase-4-community-growth)
+- [🏁 Instructions on How to Get Started:](#-instructions-on-how-to-get-started)
+  - [Prerequisites](#prerequisites)
   - [1. `Familiarize yourself with the project`](#1-familiarize-yourself-with-the-project)
   - [2. `Set Up Your Development Environment`](#2-set-up-your-development-environment)
   - [3. `Understand the Codebase`](#3-understand-the-codebase)
@@ -130,15 +144,34 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 ---
 
-# ✨ Live Project:
+## 🔮 Coming Soon (Roadmap)
 
-- `Visit the platform` [&#128073;&#127997; **HERE**](https://aloha-graceful-code.vercel.app/)
+### 🏗️ Phase 3: Next-Level Innovation
 
-**Enjoy! 🌺**
+- **Secure Code Execution Engine** (Docker + Judge0 integration)
+- **Multi-language support** (Python, Java, C++)
+- **AI-powered hints** (OpenAI API integration)
+- **Live collaboration** (WebSocket pair programming)
+- **System design challenges** (Architecture problems)
 
 ---
 
-# ✨ Instructions on How to Get Started:
+### 🌟 Phase 4: Community Growth
+
+- [ ] User solution voting system
+- [ ] Weekly coding tournaments
+- [ ] Premium mentorship program
+- [ ] Job board for top performers
+
+---
+
+# 🏁 Instructions on How to Get Started:
+
+### Prerequisites
+
+- Node.js ≥16
+- Firebase account
+- Yarn/NPM
 
 ### 1. `Familiarize yourself with the project`
 
@@ -238,6 +271,9 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 ### 8. `Stay Updated`
 
 - **Follow Project Updates:**
+
   - Keep an eye on the project for updates, new features, and community discussions.
+
+> [!NOTE] > **AlohaGracefulCode** isn't just another coding platform—it's where technical mastery meets creative problem-solving. Join us in building something extraordinary! 🌴✨
 
 **_Thank you for your interest in contributing to AlohaGracefulCode! Your contributions make a difference! Enjoy 🌺🤙🏽_**
