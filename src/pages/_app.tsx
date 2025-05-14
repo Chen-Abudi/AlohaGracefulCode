@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <ToastContainer />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </RecoilRoot>
   );
 }
