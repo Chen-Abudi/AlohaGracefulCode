@@ -11,10 +11,6 @@
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://aloha-graceful-code.vercel.app/)
 [![GitHub stars](https://img.shields.io/github/stars/Chen-Abudi/AlohaGracefulCode)](https://github.com/Chen-Abudi/AlohaGracefulCode/stargazers)
 
-<!-- # ✨ Live Project:
-
-- `Visit the platform` [&#128073;&#127997; **HERE**](https://aloha-graceful-code.vercel.app/) -->
-
 ## 📣 Overview:
 
 - [AlohaGracefulCode 💻 🖥️](#alohagracefulcode--️)
