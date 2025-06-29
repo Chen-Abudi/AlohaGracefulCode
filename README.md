@@ -6,7 +6,7 @@
 
 # ✨ Live Project:
 
-👇🏽 `Click demo live to visit the platform`
+👇🏽 `To visit the platform - Click on the badge demo live`
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://aloha-graceful-code.vercel.app/)
 [![GitHub stars](https://img.shields.io/github/stars/Chen-Abudi/AlohaGracefulCode)](https://github.com/Chen-Abudi/AlohaGracefulCode/stargazers)
@@ -22,8 +22,6 @@
   - [🎯 Roadmap](#-roadmap)
     - [Phase 1: 🏗️ Foundation](#phase-1-️-foundation)
     - [Phase 2: Enhancements](#phase-2-enhancements)
-  - [🔮 Coming Soon (Roadmap)](#-coming-soon-roadmap)
-    - [🏗️ Phase 3: Next-Level Innovation](#️-phase-3-next-level-innovation)
     - [🌟 Phase 4: Community Growth](#-phase-4-community-growth)
 - [🏁 Instructions on How to Get Started:](#-instructions-on-how-to-get-started)
   - [Prerequisites](#prerequisites)
@@ -140,7 +138,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
 ---
 
-## 🔮 Coming Soon (Roadmap)
+<!-- ## 🔮 Coming Soon (Roadmap)
 
 ### 🏗️ Phase 3: Next-Level Innovation
 
@@ -148,7 +146,7 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - **Multi-language support** (Python, Java, C++)
 - **AI-powered hints** (OpenAI API integration)
 - **Live collaboration** (WebSocket pair programming)
-- **System design challenges** (Architecture problems)
+- **System design challenges** (Architecture problems) -->
 
 ---
 
