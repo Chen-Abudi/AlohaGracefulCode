@@ -266,6 +266,6 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 
   - Keep an eye on the project for updates, new features, and community discussions.
 
-> [!NOTE] > **AlohaGracefulCode** isn't just another coding platform—it's where technical mastery meets creative problem-solving. Join us in building something extraordinary! 🌴✨
+<!-- > [!NOTE] > **AlohaGracefulCode** isn't just another coding platform—it's where technical mastery meets creative problem-solving. Join us in building something extraordinary! 🌴✨ -->
 
 **_Thank you for your interest in contributing to AlohaGracefulCode! Your contributions make a difference! Enjoy 🌺🤙🏽_**
