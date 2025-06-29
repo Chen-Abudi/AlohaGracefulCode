@@ -148,8 +148,6 @@ Welcome to AlohaGracefulCode, a coding challenge platform that combines the arti
 - **Live collaboration** (WebSocket pair programming)
 - **System design challenges** (Architecture problems) -->
 
----
-
 ### 🌟 Phase 4: Community Growth
 
 - [ ] User solution voting system
